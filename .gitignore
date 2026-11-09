@@ -1,0 +1,8 @@
+node_modules/
+out/
+outputs/
+work/
+.env*
+*.pem
+*.tsbuildinfo
+.DS_Store

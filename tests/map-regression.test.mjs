@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {interpolateRoutePoint,routePosition} from '../lib/engine.mjs';import {routePoints,TOTAL_METERS} from '../lib/history.mjs';import {layoutCards} from '../lib/event-layout.mjs';import {eventPlaces,eventAnchor} from '../lib/event-places.mjs';
+const y=lat=>Math.log(Math.tan(Math.PI/4+lat*Math.PI/360));
+test('partial route endpoint lies on same Mercator segment as full route',()=>{for(let i=1;i<routePoints.length;i++)for(const t of [.1,.5,.9]){const a=routePoints[i-1],b=routePoints[i],p=interpolateRoutePoint(a,b,t);assert.ok(Math.abs(y(p[0])-(y(a[0])+(y(b[0])-y(a[0]))*t))<1e-12);assert.ok(Math.abs(p[1]-(a[1]+(b[1]-a[1])*t))<1e-12);}});
+test('layout keeps two ordinary cards apart within phone safe area',()=>{const cards=layoutCards([{id:'a',height:190,anchor:{x:200,y:430}},{id:'b',height:190,anchor:{x:210,y:440}}],390,844,[]);for(const a of cards){assert.ok(a.x>=12&&a.x+a.w<=378);assert.ok(a.y>=82&&a.y+a.h<=664);}const[a,b]=cards;assert.ok(a.x+a.w<=b.x||b.x+b.w<=a.x||a.y+a.h<=b.y||b.y+b.h<=a.y);});
+test('ordinary word passage is not mapped to Tongdao county',()=>{assert.equal(eventPlaces({place:'界首渡口',text:'守住通道，为主力渡江争取时间',context:''}).some(e=>e.name==='通道'),false);assert.equal(eventPlaces({place:'通道',text:'转兵',context:''})[0].name,'通道');});
+test('geographic event anchor differs from synthetic marching position',()=>{assert.deepEqual(eventAnchor({place:'昆明',text:'',context:'',point:[30,110]}),[25.04,102.71]);});
+test('card leaves its geographic pin visible',()=>{const[a]=layoutCards([{id:'a',height:300,anchor:{x:190,y:430}}],390,844,[]);assert.ok(!(190>a.x&&190<a.x+a.w&&430>a.y&&430<a.y+a.h));});
