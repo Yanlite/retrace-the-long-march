@@ -1,0 +1,7 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {WalkingFilter} from '../lib/engine.mjs';
+const p=(m,s,accuracy=50)=>({lat:30+m/111195,lng:120,accuracy,speed:null,timestamp:1800000000000+s*1000});
+test('50m reported accuracy can be counted with consistent movement rather than discarded',()=>{const f=new WalkingFilter();let sum=0;const times=[];for(let s=0;s<=30;s++){const r=f.add(p(s*1.4,s));sum+=r.meters;if(r.meters)times.push(s);}assert.ok(sum>=38&&sum<=43);assert.ok(times[0]<=6);for(let i=1;i<times.length;i++)assert.ok(times[i]-times[i-1]<=2);});
+test('50m uncertainty with stationary oscillation does not accumulate distance',()=>{const f=new WalkingFilter();let total=0;for(let s=0;s<=100;s++)total+=f.add(p(Math.sin(s)*5,s)).meters;assert.equal(total,0);});
+test('imprecise position jitter alone does not establish movement',()=>{const f=new WalkingFilter();const offsets=[0,3,-2,4,-3,2,-4,0,3,-3];let total=0;for(let s=0;s<100;s++)total+=f.add(p(offsets[s%offsets.length],s)).meters;assert.equal(total,0);});
+test('very poor accuracy and vehicle speed remain excluded',()=>{const f=new WalkingFilter();assert.equal(f.add(p(0,0,150)).status,'poor');f.add(p(0,0));assert.equal(f.add({...p(20,2),speed:10}).status,'jump');});
+test('out-of-order fixes and long interruptions never bridge unobserved movement',()=>{const f=new WalkingFilter();f.add(p(0,0));assert.equal(f.add(p(2,-1)).status,'stale');assert.equal(f.add(p(100,60)).meters,0);});
