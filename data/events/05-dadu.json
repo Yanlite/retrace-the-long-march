@@ -1,0 +1,296 @@
+[
+  {
+    "id": "action-31",
+    "mode": "auto",
+    "date": "1935-05-25",
+    "routeIndex": 53,
+    "side": "red",
+    "place": "安顺场",
+    "headline": "安顺场",
+    "text": "红一团组织强渡大渡河，先遣人员突破对岸防守。",
+    "locations": [
+      "安顺场"
+    ],
+    "anchor": [
+      29.27,
+      102.28
+    ],
+    "focus": {
+      "id": "anshunchang",
+      "places": [
+        "安顺场"
+      ],
+      "maxZoom": 10.5,
+      "points": [
+        [
+          29.4,
+          102.18
+        ]
+      ],
+      "regional": true
+    },
+    "part": 6,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=6&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-32",
+    "mode": "auto",
+    "date": "1935-05-26",
+    "routeIndex": 53.6,
+    "side": "red",
+    "place": "安顺场至泸定",
+    "headline": "安顺场至泸定",
+    "text": "渡船难以满足主力快速通行，部队分路沿河向泸定桥推进。",
+    "context": "少量渡船来回运送，无法让主力及时全部过江。泸定桥成了另一条出路。",
+    "locations": [
+      "安顺场",
+      "泸定桥"
+    ],
+    "anchor": [
+      29.27,
+      102.28
+    ],
+    "focus": {
+      "id": "dadu-corridor",
+      "places": [
+        "安顺场",
+        "泸定桥"
+      ],
+      "maxZoom": 9.5,
+      "points": [],
+      "regional": true
+    },
+    "part": 6,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=6&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-49",
+    "mode": "auto",
+    "date": "1935-05-26",
+    "routeIndex": 53.62,
+    "side": "blue",
+    "place": "西昌以北",
+    "headline": "西昌以北",
+    "text": "追击部队采用梯次掩护、筑垒推进的办法北进，速度受到限制。",
+    "context": "追兵每前进一步就修筑工事，推进谨慎，也因此慢了下来。",
+    "locations": [
+      "西昌",
+      "安顺场"
+    ],
+    "anchor": [
+      29.076496742741867,
+      102.242
+    ],
+    "focus": {
+      "id": "dadu-pursuit",
+      "places": [
+        "西昌",
+        "安顺场"
+      ],
+      "maxZoom": 8.5,
+      "points": [],
+      "regional": true
+    },
+    "part": 6,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=6&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-33",
+    "mode": "auto",
+    "date": "1935-05-28",
+    "routeIndex": 56,
+    "side": "red",
+    "place": "大渡河西岸",
+    "headline": "大渡河西岸",
+    "text": "红四团沿河急行军，赶向泸定桥。",
+    "anchors": [
+      {
+        "name": "大渡河西岸行军段（示意）",
+        "point": [
+          29.730000000000008,
+          102.18
+        ]
+      },
+      {
+        "name": "泸定桥",
+        "point": [
+          29.91,
+          102.23
+        ]
+      }
+    ],
+    "anchor": [
+      29.730000000000008,
+      102.18
+    ],
+    "focus": {
+      "id": "dadu-north",
+      "places": [
+        "泸定桥"
+      ],
+      "maxZoom": 10,
+      "points": [
+        [
+          29.730000000000008,
+          102.18
+        ]
+      ],
+      "regional": true
+    },
+    "part": 6,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=6&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-50",
+    "mode": "auto",
+    "date": "1935-05-28",
+    "routeIndex": 56.02,
+    "side": "blue",
+    "place": "大渡河东岸",
+    "headline": "大渡河东岸",
+    "text": "川军沿东岸向泸定方向增援，与西岸北上的红军争夺时间。",
+    "anchors": [
+      {
+        "name": "大渡河东岸增援方向（示意）",
+        "point": [
+          29.73360317450137,
+          102.18100000000001
+        ]
+      },
+      {
+        "name": "泸定桥",
+        "point": [
+          29.91,
+          102.23
+        ]
+      }
+    ],
+    "anchor": [
+      29.73360317450137,
+      102.18100000000001
+    ],
+    "focus": {
+      "id": "dadu-north",
+      "places": [
+        "泸定桥"
+      ],
+      "maxZoom": 10,
+      "points": [
+        [
+          29.73360317450137,
+          102.18100000000001
+        ]
+      ],
+      "regional": true
+    },
+    "part": 6,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=6&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-34",
+    "mode": "auto",
+    "date": "1935-05-29",
+    "routeIndex": 57,
+    "side": "blue",
+    "place": "泸定桥东岸",
+    "headline": "泸定桥东岸",
+    "text": "守军依托桥头阵地阻击，桥面木板被拆，过桥面临火力威胁。",
+    "locations": [
+      "泸定桥"
+    ],
+    "anchor": [
+      29.91,
+      102.23
+    ],
+    "focus": {
+      "id": "luding-bridge",
+      "places": [
+        "泸定桥"
+      ],
+      "maxZoom": 11.5,
+      "points": [
+        [
+          29.73,
+          102.18
+        ]
+      ],
+      "regional": true
+    },
+    "part": 6,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=6&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-35",
+    "mode": "auto",
+    "date": "1935-05-29",
+    "routeIndex": 57.01,
+    "side": "red",
+    "place": "泸定桥",
+    "headline": "泸定桥",
+    "text": "红四团发起夺桥战斗，为后续部队通过大渡河打开通道。",
+    "locations": [
+      "泸定桥"
+    ],
+    "anchor": [
+      29.91,
+      102.23
+    ],
+    "focus": {
+      "id": "luding-bridge",
+      "places": [
+        "泸定桥"
+      ],
+      "maxZoom": 11.5,
+      "points": [
+        [
+          29.73,
+          102.18
+        ]
+      ],
+      "regional": true
+    },
+    "part": 6,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=6&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-51",
+    "mode": "auto",
+    "date": "1935-05-30",
+    "routeIndex": 57.1,
+    "side": "red",
+    "place": "泸定",
+    "headline": "泸定",
+    "text": "后续部队向泸定集中，继续沿已打开的通道北上。",
+    "locations": [
+      "泸定桥"
+    ],
+    "anchor": [
+      29.91,
+      102.23
+    ],
+    "focus": {
+      "id": "luding-bridge",
+      "places": [
+        "泸定桥"
+      ],
+      "maxZoom": 11.5,
+      "points": [
+        [
+          29.73,
+          102.18
+        ]
+      ],
+      "regional": true
+    },
+    "part": 6,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=6&t=0",
+    "sourceLabel": "视频讲义参考"
+  }
+]

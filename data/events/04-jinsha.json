@@ -1,0 +1,283 @@
+[
+  {
+    "id": "action-27",
+    "mode": "auto",
+    "date": "1935-04-29",
+    "routeIndex": 45,
+    "side": "red",
+    "place": "昆明外围",
+    "headline": "昆明外围",
+    "text": "红军以向昆明逼近的行动牵动滇军，随后急转金沙江方向。",
+    "locations": [
+      "昆明"
+    ],
+    "anchor": [
+      25.700000000000006,
+      103.26
+    ],
+    "focus": {
+      "id": "kunming-feint",
+      "places": [
+        "昆明"
+      ],
+      "maxZoom": 9,
+      "points": [
+        [
+          25.700000000000006,
+          103.26
+        ]
+      ],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-44",
+    "mode": "auto",
+    "date": "1935-04-29",
+    "routeIndex": 45.03,
+    "side": "blue",
+    "place": "昆明",
+    "headline": "昆明",
+    "text": "龙云调兵回援昆明，原本用于追堵的部分滇军改变行动方向。",
+    "locations": [
+      "昆明"
+    ],
+    "anchor": [
+      25.04,
+      102.71
+    ],
+    "focus": {
+      "id": "kunming-feint",
+      "places": [
+        "昆明"
+      ],
+      "maxZoom": 9,
+      "points": [
+        [
+          25.700000000000006,
+          103.26
+        ]
+      ],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-28",
+    "mode": "auto",
+    "date": "1935-05-01",
+    "routeIndex": 46,
+    "side": "blue",
+    "place": "金沙江南岸",
+    "headline": "金沙江南岸",
+    "text": "国民党军企图依托金沙江阻住红军北进，并从后方追击。",
+    "locations": [
+      "皎平渡",
+      "龙街渡"
+    ],
+    "anchor": [
+      26.3,
+      102.37
+    ],
+    "focus": {
+      "id": "jinsha-crossings",
+      "places": [
+        "皎平渡",
+        "龙街渡"
+      ],
+      "maxZoom": 10,
+      "points": [],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-29",
+    "mode": "auto",
+    "date": "1935-05-03",
+    "routeIndex": 47.4,
+    "side": "red",
+    "place": "皎平渡",
+    "headline": "皎平渡",
+    "text": "先遣部队控制渡口，组织部队陆续渡过金沙江。",
+    "locations": [
+      "皎平渡"
+    ],
+    "anchor": [
+      26.3,
+      102.37
+    ],
+    "focus": {
+      "id": "jinsha-crossings",
+      "places": [
+        "皎平渡",
+        "龙街渡"
+      ],
+      "maxZoom": 10,
+      "points": [],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-45",
+    "mode": "auto",
+    "date": "1935-05-04",
+    "routeIndex": 47.5,
+    "side": "red",
+    "place": "皎平渡",
+    "headline": "皎平渡",
+    "text": "渡河组织统一调度船只，人员按命令依次登船，保持渡江秩序。",
+    "locations": [
+      "皎平渡"
+    ],
+    "anchor": [
+      26.3,
+      102.37
+    ],
+    "focus": {
+      "id": "jinsha-crossings",
+      "places": [
+        "皎平渡",
+        "龙街渡"
+      ],
+      "maxZoom": 10,
+      "points": [],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-46",
+    "mode": "auto",
+    "date": "1935-05-06",
+    "routeIndex": 47.65,
+    "side": "blue",
+    "place": "龙街渡方向",
+    "headline": "龙街渡方向",
+    "text": "国民党军结合空中侦察与地方报告判断红军动向，把注意力集中于龙街渡。",
+    "locations": [
+      "龙街渡"
+    ],
+    "anchor": [
+      26.26,
+      101.9
+    ],
+    "focus": {
+      "id": "jinsha-crossings",
+      "places": [
+        "皎平渡",
+        "龙街渡"
+      ],
+      "maxZoom": 10,
+      "points": [],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-47",
+    "mode": "auto",
+    "date": "1935-05-07",
+    "routeIndex": 47.75,
+    "side": "red",
+    "place": "皎平渡",
+    "headline": "皎平渡",
+    "text": "红一、红三军团向皎平渡集中，利用已控制的通道继续渡江。",
+    "locations": [
+      "皎平渡"
+    ],
+    "anchor": [
+      26.3,
+      102.37
+    ],
+    "focus": {
+      "id": "jinsha-crossings",
+      "places": [
+        "皎平渡",
+        "龙街渡"
+      ],
+      "maxZoom": 10,
+      "points": [],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-48",
+    "mode": "auto",
+    "date": "1935-05-08",
+    "routeIndex": 47.85,
+    "side": "blue",
+    "place": "金沙江沿岸",
+    "headline": "金沙江沿岸",
+    "text": "国民党方面逐步发现皎平渡方向部队增多，再次调整追堵部署。",
+    "locations": [
+      "皎平渡",
+      "龙街渡"
+    ],
+    "anchor": [
+      26.3,
+      102.37
+    ],
+    "focus": {
+      "id": "jinsha-crossings",
+      "places": [
+        "皎平渡",
+        "龙街渡"
+      ],
+      "maxZoom": 10,
+      "points": [],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "action-30",
+    "mode": "auto",
+    "date": "1935-05-09",
+    "routeIndex": 48,
+    "side": "red",
+    "place": "金沙江北岸",
+    "headline": "金沙江北岸",
+    "text": "红军主力完成渡江，摆脱江南的追堵。",
+    "locations": [
+      "皎平渡",
+      "龙街渡"
+    ],
+    "anchor": [
+      26.3,
+      102.37
+    ],
+    "focus": {
+      "id": "jinsha-crossings",
+      "places": [
+        "皎平渡",
+        "龙街渡"
+      ],
+      "maxZoom": 10,
+      "points": [],
+      "regional": true
+    },
+    "part": 4,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=4&t=0",
+    "sourceLabel": "视频讲义参考"
+  }
+]

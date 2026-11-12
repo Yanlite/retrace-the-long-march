@@ -25,6 +25,8 @@ npm run build
 
 ## 数据与史料
 
-历史参考链接位于 lib/history.mjs 与 lib/timeline.mjs。底图使用 Esri、OpenStreetMap/CARTO；河道参考 Natural Earth。赤水河为明确标记的视频参照示意河段。
+细分事件在 data/events，互动在 data/interactions.json；历史来源保存在对应记录中。底图使用 Esri、OpenStreetMap/CARTO；河道参考 Natural Earth。赤水河为明确标记的视频参照示意河段。
 
 路线与事件位置为学习体验示意，不作为精确历史测绘。GPS数据只用于浏览器内计程，累计进度保存在当前浏览器；手机定位需要HTTPS、位置权限并保持页面前台打开。
+
+事件编排、地图标注及时间参数见 [事件编排与地图呈现](docs/事件编排与地图呈现.md)。

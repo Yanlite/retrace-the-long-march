@@ -1,0 +1,1918 @@
+[
+  {
+    "id": "chishui-sichuan",
+    "mode": "auto",
+    "date": "1935-01-19",
+    "dateLabel": "1月 · 川军部署",
+    "routeIndex": 21.15,
+    "side": "blue",
+    "place": "长江沿线",
+    "headline": "川军封锁入川要道与长江",
+    "text": "红四方面军已在川陕边界活动。川军担心中央红军从南面进入，控制入川要道，并加强长江沿线防守。",
+    "chapterId": "chishui",
+    "locations": [
+      "重庆",
+      "泸州",
+      "宜宾"
+    ],
+    "focus": {
+      "id": "chishui-ring",
+      "places": [
+        "遵义",
+        "贵阳",
+        "重庆",
+        "宜宾",
+        "毕节"
+      ],
+      "maxZoom": 7.5,
+      "points": [
+        [
+          28.94,
+          105.45
+        ]
+      ],
+      "regional": true
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=201",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-interests",
+    "mode": "archive",
+    "date": "1935-01-19",
+    "dateLabel": "1月 · 各军企图",
+    "routeIndex": 21.3,
+    "side": "blue",
+    "place": "黔滇川边界",
+    "headline": "黔军图复遵义，湘滇军防堵边界",
+    "text": "黔军想收复遵义；湘军防红军回湖南；滇军担心红军入滇，也防备中央军借机进入云南。",
+    "chapterId": "chishui",
+    "locations": [
+      "遵义",
+      "毕节",
+      "贵阳"
+    ],
+    "focus": {
+      "id": "chishui-ring",
+      "places": [
+        "遵义",
+        "贵阳",
+        "重庆",
+        "宜宾",
+        "毕节"
+      ],
+      "maxZoom": 7.5
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=154",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-plan",
+    "mode": "auto",
+    "date": "1935-01-19",
+    "dateLabel": "1月 · 北渡长江计划",
+    "routeIndex": 21.5,
+    "side": "red",
+    "place": "泸州、宜宾之间",
+    "headline": "红军计划取赤水、渡长江",
+    "text": "红四方面军向南、红二和红六军团向川东南活动，牵动川军；中央红军则向赤水推进，寻机从泸州、宜宾一带北渡长江。",
+    "chapterId": "chishui",
+    "locations": [
+      "赤水",
+      "合江",
+      "泸州",
+      "宜宾"
+    ],
+    "focus": {
+      "id": "chishui-plan",
+      "places": [
+        "土城",
+        "赤水",
+        "合江",
+        "泸州",
+        "宜宾"
+      ],
+      "maxZoom": 9,
+      "points": [
+        [
+          28.94,
+          105.45
+        ]
+      ],
+      "regional": true
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=325",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-alternative",
+    "mode": "archive",
+    "date": "1935-01-19",
+    "dateLabel": "1月 · 渡江方向",
+    "routeIndex": 21.65,
+    "side": "red",
+    "place": "重庆方向",
+    "headline": "重庆重兵、水急，不宜渡江",
+    "text": "重庆方向水流较急，又是敌军重镇。即使渡过长江，部队还要面对盆地内的敌军；泸州、宜宾方向因此成为重点。",
+    "chapterId": "chishui",
+    "locations": [
+      "重庆",
+      "泸州",
+      "宜宾"
+    ],
+    "focus": {
+      "id": "chishui-ring",
+      "places": [
+        "遵义",
+        "贵阳",
+        "重庆",
+        "宜宾",
+        "毕节"
+      ],
+      "maxZoom": 7.5,
+      "points": [
+        [
+          28.94,
+          105.45
+        ]
+      ],
+      "regional": true
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=345",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-signals",
+    "mode": "auto",
+    "date": "1935-01-19",
+    "dateLabel": "1月 · 情报侦察",
+    "routeIndex": 21.8,
+    "side": "red",
+    "place": "遵义以北",
+    "headline": "红军侦收敌军调动情报",
+    "text": "无线电侦察不断提供敌军调动的信息。北渡计划需要争取敌军部署之间的空隙；前线一旦受阻，原定路线就要重新考虑。",
+    "chapterId": "chishui",
+    "locations": [
+      "遵义",
+      "土城"
+    ],
+    "focus": {
+      "id": "chishui-plan",
+      "places": [
+        "土城",
+        "赤水",
+        "合江",
+        "泸州",
+        "宜宾"
+      ],
+      "maxZoom": 9
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=263",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-advance",
+    "mode": "auto",
+    "date": "1935-01-20",
+    "dateLabel": "1月下旬 · 向赤水推进",
+    "routeIndex": 22,
+    "side": "red",
+    "place": "土城、元厚方向",
+    "headline": "红军向土城、赤水分路推进",
+    "text": "红一军团向土城、元厚方向推进，准备继续夺取赤水县城；中央纵队跟进，其他军团掩护侧后。",
+    "chapterId": "chishui",
+    "locations": [
+      "土城",
+      "元厚",
+      "赤水"
+    ],
+    "focus": {
+      "id": "chishui-plan",
+      "places": [
+        "土城",
+        "赤水",
+        "合江",
+        "泸州",
+        "宜宾"
+      ],
+      "maxZoom": 9
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=365",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-tucheng",
+    "mode": "archive",
+    "date": "1935-01-24",
+    "dateLabel": "1月下旬",
+    "routeIndex": 23.5,
+    "side": "red",
+    "place": "土城",
+    "headline": "中央纵队进驻土城",
+    "text": "红军控制土城一带，继续向赤水方向展开。中央机关和红五军团随后到达。",
+    "chapterId": "chishui",
+    "locations": [
+      "土城",
+      "赤水"
+    ],
+    "focus": {
+      "id": "tucheng-battle-area",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=375",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-blocked",
+    "mode": "auto",
+    "date": "1935-01-25",
+    "dateLabel": "1月下旬 · 赤水方向",
+    "routeIndex": 23.7,
+    "side": "red",
+    "place": "赤水方向",
+    "headline": "川军阻止红军夺取赤水",
+    "text": "红一军团向赤水推进时遭川军阻挡；红九军团在习水方向交战不利，向后撤退，准备靠拢红一军团。",
+    "chapterId": "chishui",
+    "locations": [
+      "赤水",
+      "土城",
+      "习水"
+    ],
+    "focus": {
+      "id": "tucheng-eastern-approach",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水",
+        "习水"
+      ],
+      "maxZoom": 10,
+      "points": [
+        [
+          28.3,
+          106.11
+        ]
+      ],
+      "regional": true
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=393",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-pursuit",
+    "mode": "archive",
+    "date": "1935-01-27",
+    "dateLabel": "土城战前",
+    "routeIndex": 23.9,
+    "side": "blue",
+    "place": "土城以东",
+    "headline": "川军沿习水方向追逼土城",
+    "text": "前面赤水方向受阻，后面川军沿习水方向压来。红军计划先打掉这一路追兵，再打开局面。",
+    "chapterId": "chishui",
+    "locations": [
+      "土城",
+      "青杠坡",
+      "赤水",
+      "习水"
+    ],
+    "focus": {
+      "id": "tucheng-eastern-approach",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水",
+        "习水"
+      ],
+      "maxZoom": 10,
+      "points": [
+        [
+          28.3,
+          106.11
+        ]
+      ],
+      "regional": true
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=405",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-estimate",
+    "mode": "auto",
+    "date": "1935-01-27",
+    "dateLabel": "土城战前 · 原先判断",
+    "routeIndex": 24,
+    "side": "red",
+    "place": "青杠坡",
+    "headline": "红军计划在青杠坡伏击川军",
+    "text": "赤水方向推进受阻，土城以东又出现川军追兵。按原先情报，对方约三至四个团；红军准备集中兵力，先打掉这一路追兵。",
+    "chapterId": "chishui",
+    "locations": [
+      "青杠坡",
+      "土城",
+      "习水",
+      "赤水"
+    ],
+    "focus": {
+      "id": "tucheng-eastern-approach",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水",
+        "习水"
+      ],
+      "maxZoom": 10,
+      "points": [
+        [
+          28.3,
+          106.11
+        ]
+      ],
+      "regional": true
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=415",
+    "sourceLabel": "视频讲义参考",
+    "until": {
+      "event": "chishui-crossing",
+      "km": 80
+    }
+  },
+  {
+    "id": "chishui-strength",
+    "mode": "archive",
+    "date": "1935-01-28",
+    "dateLabel": "1月28日 · 战斗展开",
+    "routeIndex": 24.04,
+    "side": "blue",
+    "place": "青杠坡",
+    "headline": "川军六个团超出红军预估",
+    "text": "实际接战的川军不止原先判断的三至四个团，而是有六个团，并且后面还有增援。",
+    "chapterId": "chishui",
+    "locations": [
+      "青杠坡",
+      "土城"
+    ],
+    "focus": {
+      "id": "tucheng-battle-area",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=432",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-heights",
+    "mode": "archive",
+    "date": "1935-01-28",
+    "dateLabel": "1月28日 · 战斗展开",
+    "routeIndex": 24.08,
+    "side": "blue",
+    "place": "青杠坡",
+    "headline": "制高点被抢占",
+    "text": "郭勋祺部抢占了山上制高点。红军设想的伏击，变成了争夺高地的拉锯战。",
+    "chapterId": "chishui",
+    "locations": [
+      "青杠坡",
+      "土城"
+    ],
+    "focus": {
+      "id": "tucheng-battle-area",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=443",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-reserve",
+    "mode": "archive",
+    "date": "1935-01-28",
+    "dateLabel": "1月28日 · 激战",
+    "routeIndex": 24.12,
+    "side": "red",
+    "place": "土城、青杠坡",
+    "headline": "干部团投入土城战斗",
+    "text": "情况危急。朱德到前线指挥，干部团投入战斗，红一军团第二师回援。川军进攻被遏止，双方转入对峙。",
+    "chapterId": "chishui",
+    "locations": [
+      "土城",
+      "青杠坡"
+    ],
+    "focus": {
+      "id": "tucheng-battle-area",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=453",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-pressure",
+    "mode": "auto",
+    "date": "1935-01-28",
+    "dateLabel": "1月28日 · 战局变化",
+    "routeIndex": 24.16,
+    "side": "blue",
+    "place": "赤水、叙永方向",
+    "headline": "两路敌军合围威胁",
+    "text": "赤水方向敌军可能南下，叙永方向敌军也可能迂回。土城一线打成相持。",
+    "chapterId": "chishui",
+    "locations": [
+      "赤水",
+      "叙永",
+      "土城"
+    ],
+    "focus": {
+      "id": "tucheng-battle-area",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=480",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-decision",
+    "mode": "archive",
+    "date": "1935-01-28",
+    "dateLabel": "1月28日 · 重新决策",
+    "routeIndex": 24.20,
+    "side": "red",
+    "place": "土城",
+    "headline": "赤水夺城受阻，土城陷入相持",
+    "text": "夺取赤水的行动受阻，青杠坡又未能迅速歼敌。继续作战，中央纵队就要留在几路敌军之间。",
+    "chapterId": "chishui",
+    "locations": [
+      "土城",
+      "青杠坡",
+      "赤水",
+      "叙永"
+    ],
+    "focus": {
+      "id": "tucheng-battle-area",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=492",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-withdraw",
+    "mode": "auto",
+    "date": "1935-01-28",
+    "dateLabel": "1月28日晚",
+    "routeIndex": 24.24,
+    "side": "red",
+    "place": "土城、元厚",
+    "headline": "红军撤出土城，准备西渡赤水",
+    "text": "红军决定撤出土城战斗，利用土城、元厚等渡口西渡赤水，转向川南。原先从赤水方向北渡长江的计划随之调整。",
+    "chapterId": "chishui",
+    "locations": [
+      "土城",
+      "元厚",
+      "习水"
+    ],
+    "focus": {
+      "id": "tucheng-eastern-approach",
+      "places": [
+        "土城",
+        "青杠坡",
+        "元厚",
+        "赤水",
+        "习水"
+      ],
+      "maxZoom": 10,
+      "points": [
+        [
+          28.3,
+          106.11
+        ],
+        [
+          28.94,
+          105.45
+        ]
+      ],
+      "regional": true
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=492",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-crossing",
+    "mode": "auto",
+    "date": "1935-01-29",
+    "dateLabel": "1月29日",
+    "routeIndex": 24.7,
+    "side": "red",
+    "place": "土城、元厚渡口",
+    "headline": "一渡赤水：转向川南",
+    "text": "中央红军渡过赤水河，摆脱土城一线的接触，向川南转移。下一步仍要寻找北进通路。",
+    "chapterId": "chishui",
+    "locations": [
+      "土城",
+      "元厚",
+      "叙永"
+    ],
+    "focus": {
+      "id": "chishui-retreat",
+      "places": [
+        "土城",
+        "元厚",
+        "叙永",
+        "扎西"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=506",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-xuyong",
+    "mode": "auto",
+    "date": "1935-02-03",
+    "dateLabel": "2月初 · 川南",
+    "routeIndex": 25.8,
+    "side": "red",
+    "place": "叙永",
+    "headline": "红军未能攻下叙永",
+    "text": "北进需要打开叙永方向，但部队刚经过土城激战，未能攻下这一要点。原定方向无法走通。",
+    "chapterId": "chishui",
+    "locations": [
+      "叙永",
+      "扎西",
+      "土城"
+    ],
+    "focus": {
+      "id": "chishui-retreat",
+      "places": [
+        "土城",
+        "元厚",
+        "叙永",
+        "扎西"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=506",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-turn-zhaxi",
+    "mode": "auto",
+    "date": "1935-02-03",
+    "dateLabel": "2月初 · 转向扎西",
+    "routeIndex": 26.0,
+    "side": "red",
+    "place": "扎西方向",
+    "headline": "红军转向扎西",
+    "text": "红军转向扎西，寻找新的机动余地。川军、滇军等继续向这一带靠拢。",
+    "chapterId": "chishui",
+    "locations": [
+      "叙永",
+      "扎西"
+    ],
+    "focus": {
+      "id": "chishui-retreat",
+      "places": [
+        "土城",
+        "元厚",
+        "叙永",
+        "扎西"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=506",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-zhaxi",
+    "mode": "archive",
+    "date": "1935-02-09",
+    "dateLabel": "2月上旬 · 扎西地区",
+    "routeIndex": 27,
+    "side": "red",
+    "place": "扎西",
+    "headline": "红军在扎西集结整编",
+    "text": "红军到扎西集结、整编。叙永没能打开，西面通向金沙江的路也被滇军挡住；接下来先试着调动这一路守军。",
+    "chapterId": "chishui",
+    "locations": [
+      "扎西",
+      "叙永",
+      "土城"
+    ],
+    "focus": {
+      "id": "chishui-retreat",
+      "places": [
+        "土城",
+        "元厚",
+        "叙永",
+        "扎西"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=529",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-zhaxi-ring",
+    "mode": "auto",
+    "date": "1935-02-09",
+    "dateLabel": "2月上旬 · 扎西",
+    "routeIndex": 27.02,
+    "side": "blue",
+    "place": "扎西周围",
+    "headline": "川军、滇军与薛岳部进逼扎西",
+    "text": "川军守住北面的长江方向，滇军封住西面通路；毕节方向的滇军和东南面的薛岳部，又向扎西靠来。",
+    "chapterId": "chishui",
+    "locations": [
+      "扎西",
+      "叙永",
+      "毕节"
+    ],
+    "focus": {
+      "id": "chishui-lower-zhaxi",
+      "places": [
+        "扎西",
+        "叙永",
+        "镇雄",
+        "彝良",
+        "毕节"
+      ],
+      "maxZoom": 8.5,
+      "points": [
+        [
+          28.94,
+          105.45
+        ]
+      ],
+      "regional": true
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=0",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-west-feint",
+    "mode": "auto",
+    "date": "1935-02-10",
+    "dateLabel": "2月上旬 · 西进尝试",
+    "routeIndex": 27.12,
+    "side": "red",
+    "place": "镇雄、彝良方向",
+    "headline": "红军佯动，试图调动滇军",
+    "text": "红军以部队佯动镇雄、彝良，想让滇军离开防线，再由主力打开向金沙江前进的路。",
+    "chapterId": "chishui",
+    "locations": [
+      "镇雄",
+      "彝良",
+      "扎西"
+    ],
+    "focus": {
+      "id": "chishui-lower-zhaxi",
+      "places": [
+        "扎西",
+        "叙永",
+        "镇雄",
+        "彝良",
+        "毕节"
+      ],
+      "maxZoom": 8.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=22",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-west-closed",
+    "mode": "auto",
+    "date": "1935-02-10",
+    "dateLabel": "2月上旬 · 西进未成",
+    "routeIndex": 27.2,
+    "side": "blue",
+    "place": "横江方向",
+    "headline": "滇军固守横江，西进未成",
+    "text": "滇军没有被佯动调走，西面的通路仍未打开。川军从北面、滇军从南面、薛岳部从东南面继续收拢。",
+    "chapterId": "chishui",
+    "locations": [
+      "扎西",
+      "毕节",
+      "叙永"
+    ],
+    "focus": {
+      "id": "chishui-lower-zhaxi",
+      "places": [
+        "扎西",
+        "叙永",
+        "镇雄",
+        "彝良",
+        "毕节"
+      ],
+      "maxZoom": 8.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=35",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-east-choice",
+    "mode": "auto",
+    "date": "1935-02-11",
+    "dateLabel": "2月中旬 · 重新选方向",
+    "routeIndex": 27.3,
+    "side": "red",
+    "place": "扎西",
+    "headline": "红军决定回师黔北",
+    "text": "北、西、南几面都有重兵，东面的黔军相对薄弱，遵义一带兵力又分散。红军决定回师黔北，赶在敌军重新布防前折返。",
+    "chapterId": "chishui",
+    "locations": [
+      "扎西",
+      "土城",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-lower-east",
+      "places": [
+        "扎西",
+        "太平渡",
+        "二郎滩",
+        "桐梓"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=57",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-ninth-screen",
+    "mode": "auto",
+    "date": "1935-02-12",
+    "dateLabel": "2月中旬 · 主力东进",
+    "routeIndex": 27.45,
+    "side": "red",
+    "place": "扎西",
+    "headline": "红九军团佯留扎西，掩护主力东进",
+    "text": "红九军团在扎西一带继续活动，造成主力仍在当地的印象；主力已向赤水河急进，准备从太平渡、二郎滩一线过河。",
+    "chapterId": "chishui",
+    "locations": [
+      "扎西",
+      "太平渡",
+      "二郎滩"
+    ],
+    "focus": {
+      "id": "chishui-lower-east",
+      "places": [
+        "扎西",
+        "太平渡",
+        "二郎滩",
+        "桐梓"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=98",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-second",
+    "mode": "auto",
+    "date": "1935-02-18",
+    "dateLabel": "2月18日起 · 二渡赤水",
+    "routeIndex": 29,
+    "side": "red",
+    "place": "太平渡、二郎滩",
+    "headline": "二渡赤水：回师黔北",
+    "text": "红军分别利用太平渡、二郎滩等渡口东渡。黔军来不及组织有效阻拦，红军重新进入黔北。",
+    "chapterId": "chishui",
+    "locations": [
+      "太平渡",
+      "二郎滩"
+    ],
+    "focus": {
+      "id": "chishui-lower-east",
+      "places": [
+        "扎西",
+        "太平渡",
+        "二郎滩",
+        "桐梓"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=98",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-wrong-target",
+    "mode": "auto",
+    "date": "1935-02-19",
+    "dateLabel": "二渡后 · 敌军判断",
+    "routeIndex": 29.15,
+    "side": "blue",
+    "place": "川黔边界",
+    "headline": "国民党军误判红军将赴湘西",
+    "text": "国民党方面判断红军将向东会合红二、六军团，川军向东调动，其他部队也着手封堵东进道路。红军实际先向桐梓、遵义推进。",
+    "chapterId": "chishui",
+    "locations": [
+      "桐梓",
+      "松坎",
+      "遵义",
+      "红二、六军团（湘西）"
+    ],
+    "focus": {
+      "id": "chishui-wrong-target-hunan",
+      "places": [
+        "遵义",
+        "桐梓",
+        "红二、六军团（湘西）"
+      ],
+      "maxZoom": 7
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=115",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-reclose",
+    "mode": "auto",
+    "date": "1935-02-20",
+    "dateLabel": "二渡后 · 追堵调动",
+    "routeIndex": 29.3,
+    "side": "blue",
+    "place": "土城、遵义方向",
+    "headline": "郭勋祺追击，吴奇伟北援遵义",
+    "text": "郭勋祺部向土城急进，准备攻击侧背；吴奇伟部从乌江以南北援。红军要赶在两路敌军靠拢前打通桐梓—遵义通路。",
+    "chapterId": "chishui",
+    "locations": [
+      "土城",
+      "桐梓",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-lower-east",
+      "places": [
+        "扎西",
+        "太平渡",
+        "二郎滩",
+        "桐梓"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=126",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-tongzi",
+    "mode": "auto",
+    "date": "1935-02-24",
+    "dateLabel": "2月下旬 · 桐梓",
+    "routeIndex": 30,
+    "side": "red",
+    "place": "桐梓",
+    "headline": "红三军团攻占桐梓",
+    "text": "红三军团迅速占领兵力空虚的桐梓，并派部队北上牵制。再向南，就是通往遵义的娄山关。",
+    "chapterId": "chishui",
+    "locations": [
+      "桐梓",
+      "娄山关",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-lower-pass",
+      "places": [
+        "桐梓",
+        "娄山关",
+        "板桥",
+        "官店"
+      ],
+      "maxZoom": 10.8
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=154",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-pass-arrangement",
+    "mode": "archive",
+    "date": "1935-02-25",
+    "dateLabel": "2月25日前后 · 娄山关",
+    "routeIndex": 30.15,
+    "side": "red",
+    "place": "娄山关北面",
+    "headline": "红军部署娄山关攻坚与阻援",
+    "text": "红三军团承担攻关，红一军团防北面，红五、九军团在官店一带阻击追兵。主力不能全部挤到关口。",
+    "chapterId": "chishui",
+    "locations": [
+      "官店",
+      "桐梓",
+      "娄山关"
+    ],
+    "focus": {
+      "id": "chishui-lower-pass",
+      "places": [
+        "桐梓",
+        "娄山关",
+        "板桥",
+        "官店"
+      ],
+      "maxZoom": 10.8
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=190",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-pass-defenders",
+    "mode": "archive",
+    "date": "1935-02-25",
+    "dateLabel": "娄山关战斗 · 守军",
+    "routeIndex": 30.35,
+    "side": "blue",
+    "place": "娄山关、板桥",
+    "headline": "黔军据守娄山关、板桥",
+    "text": "黔军据守关口，板桥还有后续兵力。红军由北向南攻击，沿狭窄通路前进，要面对两侧高地的火力。",
+    "chapterId": "chishui",
+    "locations": [
+      "娄山关",
+      "板桥"
+    ],
+    "focus": {
+      "id": "chishui-lower-pass",
+      "places": [
+        "桐梓",
+        "娄山关",
+        "板桥",
+        "官店"
+      ],
+      "maxZoom": 10.8
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=220",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-pass-reinforced",
+    "mode": "auto",
+    "date": "1935-02-25",
+    "dateLabel": "娄山关战斗 · 拉锯",
+    "routeIndex": 30.55,
+    "side": "blue",
+    "place": "板桥",
+    "headline": "板桥增援娄山关，正面攻击陷入拉锯",
+    "text": "黔军据守娄山关，板桥还有预备队。红军沿狭窄山路正面进攻，板桥守军又赶来增援；只向关口增兵，很难截断这条补充通路。",
+    "chapterId": "chishui",
+    "locations": [
+      "娄山关",
+      "板桥"
+    ],
+    "focus": {
+      "id": "chishui-lower-pass",
+      "places": [
+        "桐梓",
+        "娄山关",
+        "板桥",
+        "官店"
+      ],
+      "maxZoom": 10.8
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=233",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-pass-turn",
+    "mode": "auto",
+    "date": "1935-02-26",
+    "dateLabel": "2月下旬 · 迂回攻关",
+    "routeIndex": 30.8,
+    "side": "red",
+    "place": "娄山关、板桥",
+    "headline": "红军迂回板桥，攻破娄山关",
+    "text": "红军迂回部队威胁守军指挥所，另一路向板桥穿插，切断其增援、退却联系。守军开始南退，娄山关通路打开。",
+    "chapterId": "chishui",
+    "locations": [
+      "娄山关",
+      "板桥"
+    ],
+    "focus": {
+      "id": "chishui-lower-pass",
+      "places": [
+        "桐梓",
+        "娄山关",
+        "板桥",
+        "官店"
+      ],
+      "maxZoom": 10.8
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=256",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-pass-open",
+    "mode": "archive",
+    "date": "1935-02-26",
+    "dateLabel": "攻克娄山关后",
+    "routeIndex": 31,
+    "side": "red",
+    "place": "娄山关至遵义",
+    "headline": "红军突破娄山关后南追遵义",
+    "text": "红军没有停在关口，继续向南击退沿途黔军。夺关的目的，是赶在援军到达前控制遵义。",
+    "chapterId": "chishui",
+    "locations": [
+      "娄山关",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-lower-pass",
+      "places": [
+        "桐梓",
+        "娄山关",
+        "板桥",
+        "官店"
+      ],
+      "maxZoom": 10.8
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=278",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-city-retaken",
+    "mode": "auto",
+    "date": "1935-02-27",
+    "dateLabel": "2月27日前后 · 遵义",
+    "routeIndex": 31.8,
+    "side": "red",
+    "place": "遵义",
+    "headline": "红军重占遵义，吴奇伟部北上反攻",
+    "text": "红军重占遵义，王家烈部南退后与北上的吴奇伟部会合，准备反攻。城南高地俯瞰遵义，红军必须守住这里，才能获得休整时间。",
+    "chapterId": "chishui",
+    "locations": [
+      "遵义",
+      "忠庄铺",
+      "老鸦山"
+    ],
+    "focus": {
+      "id": "chishui-lower-city",
+      "places": [
+        "遵义",
+        "老鸦山",
+        "红花岗",
+        "忠庄铺"
+      ],
+      "maxZoom": 12
+    },
+    "part": 3,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "chishui-city-heights",
+    "mode": "archive",
+    "date": "1935-02-28",
+    "dateLabel": "2月28日前后 · 遵义城南",
+    "routeIndex": 31.9,
+    "side": "blue",
+    "place": "老鸦山、红花岗",
+    "headline": "双方争夺老鸦山、红花岗",
+    "text": "吴奇伟部与王家烈残部准备夺取老鸦山、红花岗，威胁遵义。红军抢先占据高地，干部团作为预备力量。",
+    "chapterId": "chishui",
+    "locations": [
+      "老鸦山",
+      "红花岗",
+      "忠庄铺",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-lower-city",
+      "places": [
+        "遵义",
+        "老鸦山",
+        "红花岗",
+        "忠庄铺"
+      ],
+      "maxZoom": 12
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=292",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-city-lost-height",
+    "mode": "archive",
+    "date": "1935-02-28",
+    "dateLabel": "遵义城南战斗 · 局势变化",
+    "routeIndex": 31.95,
+    "side": "blue",
+    "place": "老鸦山",
+    "headline": "老鸦山失守，遵义受威胁",
+    "text": "敌军火力猛烈，红军连续作战，老鸦山阵地一度失守。若不能改变局面，刚占领的遵义仍难站住。",
+    "chapterId": "chishui",
+    "locations": [
+      "老鸦山",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-lower-city",
+      "places": [
+        "遵义",
+        "老鸦山",
+        "红花岗",
+        "忠庄铺"
+      ],
+      "maxZoom": 12
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=327",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-city-countermove",
+    "mode": "archive",
+    "date": "1935-02-28",
+    "dateLabel": "遵义城南战斗 · 迂回",
+    "routeIndex": 32.0,
+    "side": "red",
+    "place": "忠庄铺方向",
+    "headline": "红军反攻老鸦山、迂回忠庄铺",
+    "text": "红军反击老鸦山，迂回部队也逐步到位，威胁敌军指挥所与侧面。吴奇伟部的前线攻击与后方指挥开始脱节。",
+    "chapterId": "chishui",
+    "locations": [
+      "老鸦山",
+      "忠庄铺",
+      "红花岗"
+    ],
+    "focus": {
+      "id": "chishui-lower-city",
+      "places": [
+        "遵义",
+        "老鸦山",
+        "红花岗",
+        "忠庄铺"
+      ],
+      "maxZoom": 12
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=344",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-city-victory",
+    "mode": "auto",
+    "date": "1935-02-28",
+    "dateLabel": "遵义战斗结束",
+    "routeIndex": 32.1,
+    "side": "red",
+    "place": "遵义、乌江方向",
+    "headline": "吴奇伟部败退乌江以南",
+    "text": "红军反击城南高地，同时迂回敌军侧后、威胁忠庄铺指挥所。吴奇伟部南撤，前线陷入混乱；红军乘势追击，把敌军赶回乌江以南。",
+    "chapterId": "chishui",
+    "locations": [
+      "遵义",
+      "忠庄铺"
+    ],
+    "focus": {
+      "id": "chishui-lower-city",
+      "places": [
+        "遵义",
+        "老鸦山",
+        "红花岗",
+        "忠庄铺"
+      ],
+      "maxZoom": 12
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=355",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-new-net",
+    "mode": "auto",
+    "date": "1935-03-01",
+    "dateLabel": "3月上旬 · 敌军新部署",
+    "routeIndex": 32.3,
+    "side": "blue",
+    "place": "遵义外围",
+    "headline": "国民党军重组遵义包围圈",
+    "text": "川军仍从北面施压，湘军扼守东面的乌江，周浑元部准备由鸭溪方向逼近，吴奇伟部则伺机攻击红军侧背。",
+    "chapterId": "chishui",
+    "locations": [
+      "遵义",
+      "娄山关",
+      "鸭溪"
+    ],
+    "focus": {
+      "id": "chishui-lower-west",
+      "places": [
+        "遵义",
+        "鸭溪",
+        "鲁班场",
+        "金沙",
+        "茅台"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=381",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-yaxi-plan",
+    "mode": "auto",
+    "date": "1935-03-05",
+    "dateLabel": "3月上旬 · 鸭溪",
+    "routeIndex": 32.4,
+    "side": "red",
+    "place": "鸭溪",
+    "headline": "红军在鸭溪设伏周浑元部",
+    "text": "红军掌握周浑元部原定行进方向，集中红一、三、五军团在鸭溪附近寻机歼敌，红九军团防守遵义以北。",
+    "chapterId": "chishui",
+    "locations": [
+      "鸭溪",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-lower-west",
+      "places": [
+        "遵义",
+        "鸭溪",
+        "鲁班场",
+        "金沙",
+        "茅台"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=405",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-enemy-stops",
+    "mode": "auto",
+    "date": "1935-03-06",
+    "dateLabel": "3月上旬 · 敌军改变计划",
+    "routeIndex": 32.55,
+    "side": "blue",
+    "place": "鲁班场",
+    "headline": "周浑元退守鲁班场筑堡",
+    "text": "国民党方面改变推进方式，周浑元部退守鲁班场，周围敌军开始筑堡、逐步压缩红军活动范围。鸭溪的伏击等不到原来的目标。",
+    "chapterId": "chishui",
+    "locations": [
+      "鲁班场",
+      "鸭溪"
+    ],
+    "focus": {
+      "id": "chishui-lower-west",
+      "places": [
+        "遵义",
+        "鸭溪",
+        "鲁班场",
+        "金沙",
+        "茅台"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=445",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-jinsha-proposal",
+    "mode": "auto",
+    "date": "1935-03-10",
+    "dateLabel": "3月中旬 · 寻找新目标",
+    "routeIndex": 32.7,
+    "side": "red",
+    "place": "金沙县城方向",
+    "headline": "红军提出攻取金沙补给方案",
+    "text": "有意见主张进攻黔军防守的金沙，争取补给。可远程奔袭若拖成攻城战，周浑元、吴奇伟又可能攻击侧背。",
+    "chapterId": "chishui",
+    "locations": [
+      "金沙",
+      "鸭溪",
+      "鲁班场"
+    ],
+    "focus": {
+      "id": "chishui-lower-west",
+      "places": [
+        "遵义",
+        "鸭溪",
+        "鲁班场",
+        "金沙",
+        "茅台"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=483",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-jinsha-rejected",
+    "mode": "auto",
+    "date": "1935-03-12",
+    "dateLabel": "3月中旬 · 调整作战目标",
+    "routeIndex": 32.8,
+    "side": "red",
+    "place": "鸭溪一带",
+    "headline": "红军取消进攻金沙计划",
+    "text": "攻下金沙并不意味着能在那里立足，部队仍可能退回遵义，包围态势也未改变。红军最终没有实行这一方案，转而选择鲁班场。",
+    "chapterId": "chishui",
+    "locations": [
+      "金沙",
+      "鸭溪",
+      "鲁班场",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-lower-west",
+      "places": [
+        "遵义",
+        "鸭溪",
+        "鲁班场",
+        "金沙",
+        "茅台"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=508",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-luban-purpose",
+    "mode": "auto",
+    "date": "1935-03-14",
+    "dateLabel": "鲁班场战前",
+    "routeIndex": 32.9,
+    "side": "red",
+    "place": "鲁班场",
+    "headline": "红军决定进攻鲁班场",
+    "text": "红军准备进攻鲁班场，争取歼敌、打破围堵。如果不能攻克，也要压住这一路追兵，为再次渡过赤水河创造条件。",
+    "chapterId": "chishui",
+    "locations": [
+      "鲁班场",
+      "茅台",
+      "金沙"
+    ],
+    "focus": {
+      "id": "chishui-lower-west",
+      "places": [
+        "遵义",
+        "鸭溪",
+        "鲁班场",
+        "金沙",
+        "茅台"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=556",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-luban-battle",
+    "mode": "auto",
+    "date": "1935-03-15",
+    "dateLabel": "3月15日 · 鲁班场",
+    "routeIndex": 33,
+    "side": "red",
+    "place": "鲁班场",
+    "headline": "鲁班场进攻受阻，吴奇伟增援",
+    "text": "鲁班场工事坚固，红军进攻未能达到预期，吴奇伟部又向这一方向增援。继续攻坚，新的合围就可能形成。",
+    "chapterId": "chishui",
+    "locations": [
+      "鲁班场",
+      "茅台"
+    ],
+    "focus": {
+      "id": "chishui-lower-west",
+      "places": [
+        "遵义",
+        "鸭溪",
+        "鲁班场",
+        "金沙",
+        "茅台"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=602",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-third",
+    "mode": "auto",
+    "date": "1935-03-16",
+    "dateLabel": "3月16日起 · 三渡赤水",
+    "routeIndex": 34,
+    "side": "red",
+    "place": "茅台",
+    "headline": "三渡赤水：茅台西渡",
+    "text": "红军撤出鲁班场战斗，经仁怀、茅台一带西渡赤水。过河时大张旗鼓，有意显露行动，让敌军看到主力重新向川南转移。",
+    "chapterId": "chishui",
+    "locations": [
+      "仁怀",
+      "茅台",
+      "鲁班场"
+    ],
+    "focus": {
+      "id": "chishui-lower-trick",
+      "places": [
+        "茅台",
+        "古蔺",
+        "叙永",
+        "太平渡"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=611",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-silence",
+    "mode": "auto",
+    "date": "1935-03-17",
+    "dateLabel": "三渡后 · 河西隐蔽",
+    "routeIndex": 34.2,
+    "side": "red",
+    "place": "茅台以西",
+    "headline": "红军主力电台静默",
+    "text": "主力在河西山区隐蔽，停止电台活动。",
+    "chapterId": "chishui",
+    "locations": [
+      "茅台",
+      "古蔺"
+    ],
+    "focus": {
+      "id": "chishui-lower-trick",
+      "places": [
+        "茅台",
+        "古蔺",
+        "叙永",
+        "太平渡"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=623",
+    "sourceLabel": "视频讲义参考",
+    "until": {
+      "event": "chishui-fourth",
+      "km": 0
+    }
+  },
+  {
+    "id": "chishui-radio-feint",
+    "mode": "auto",
+    "date": "1935-03-17",
+    "dateLabel": "三渡后 · 向古蔺佯动",
+    "routeIndex": 34.4,
+    "side": "red",
+    "place": "古蔺方向",
+    "headline": "佯动部队携总部电台进逼古蔺",
+    "text": "红军派出一个团向古蔺佯动，总部电台随同行动，频繁发报。它在途中击退守军，使当地向上报告红军主力正在接近。",
+    "chapterId": "chishui",
+    "locations": [
+      "古蔺",
+      "茅台"
+    ],
+    "focus": {
+      "id": "chishui-lower-trick",
+      "places": [
+        "茅台",
+        "古蔺",
+        "叙永",
+        "太平渡"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=623",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-enemy-evidence",
+    "mode": "auto",
+    "date": "1935-03-18",
+    "dateLabel": "三渡后 · 敌军判断",
+    "routeIndex": 34.6,
+    "side": "blue",
+    "place": "古蔺、叙永方向",
+    "headline": "国民党军误判红军主力北进",
+    "text": "侦察机见到红军渡河，古蔺守军报告遭大部队进攻，总部电台又在附近活动。国民党方面判断红军将从川南继续北进。",
+    "chapterId": "chishui",
+    "locations": [
+      "古蔺",
+      "叙永",
+      "茅台"
+    ],
+    "focus": {
+      "id": "chishui-lower-trick",
+      "places": [
+        "茅台",
+        "古蔺",
+        "叙永",
+        "太平渡"
+      ],
+      "maxZoom": 9.5
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=651",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-enemy-west",
+    "mode": "auto",
+    "date": "1935-03-19",
+    "dateLabel": "3月中下旬 · 敌军西调",
+    "routeIndex": 34.8,
+    "side": "blue",
+    "place": "川南、赤水河西岸",
+    "headline": "国民党军向川南、河西集中",
+    "text": "川军守古蔺、叙永和长江，滇军向赤水河上游靠拢；周浑元、吴奇伟、郭勋祺等部也准备渡河追击。",
+    "chapterId": "chishui",
+    "locations": [
+      "古蔺",
+      "叙永",
+      "茅台"
+    ],
+    "focus": {
+      "id": "chishui-lower-trick",
+      "places": [
+        "茅台",
+        "古蔺",
+        "叙永",
+        "太平渡"
+      ],
+      "maxZoom": 9.5,
+      "points": [
+        [
+          28.94,
+          105.45
+        ]
+      ],
+      "regional": true
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=666",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-secret-turn",
+    "mode": "auto",
+    "date": "1935-03-20",
+    "dateLabel": "3月20日前后 · 主力转向",
+    "routeIndex": 35,
+    "side": "red",
+    "place": "赤水河西岸",
+    "headline": "红军主力秘密折返太平渡",
+    "text": "敌军向川南集中时，红军主力没有继续攻古蔺，而是秘密转向东北，赶往太平渡、二郎滩一线。",
+    "chapterId": "chishui",
+    "locations": [
+      "古蔺",
+      "太平渡",
+      "二郎滩"
+    ],
+    "focus": {
+      "id": "chishui-lower-fourth",
+      "places": [
+        "古蔺",
+        "太平渡",
+        "九溪口",
+        "二郎滩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=716",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-fourth",
+    "mode": "auto",
+    "date": "1935-03-21",
+    "dateLabel": "3月21日起 · 四渡赤水",
+    "routeIndex": 37,
+    "side": "red",
+    "place": "太平渡、九溪口、二郎滩",
+    "headline": "四渡赤水：东渡后南下乌江",
+    "text": "红军利用太平渡、九溪口、二郎滩等渡口东渡。敌军还在向河西追赶，主力已经返回黔北，迅速向乌江推进。",
+    "chapterId": "chishui",
+    "locations": [
+      "太平渡",
+      "九溪口",
+      "二郎滩"
+    ],
+    "focus": {
+      "id": "chishui-lower-fourth",
+      "places": [
+        "古蔺",
+        "太平渡",
+        "九溪口",
+        "二郎滩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=725",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-south-march",
+    "mode": "auto",
+    "date": "1935-03-23",
+    "dateLabel": "四渡后 · 南下途中",
+    "routeIndex": 37.5,
+    "side": "red",
+    "place": "仁怀以东、乌江方向",
+    "headline": "红军穿插黔北，南下乌江",
+    "text": "红军避开敌军主力，沿黔北山区南下。前几次渡河调动了追兵，现在要赶在它们回头之前利用江南的兵力空隙。",
+    "chapterId": "chishui",
+    "locations": [
+      "仁怀",
+      "鸭溪",
+      "沙土",
+      "乌江南渡区"
+    ],
+    "focus": {
+      "id": "chishui-lower-south",
+      "places": [
+        "太平渡",
+        "仁怀",
+        "鸭溪",
+        "沙土",
+        "乌江南渡区"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=738",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-ninth-north",
+    "mode": "auto",
+    "date": "1935-03-29",
+    "dateLabel": "南渡乌江前",
+    "routeIndex": 38.3,
+    "side": "red",
+    "place": "乌江以北",
+    "headline": "红九军团留乌江以北牵敌",
+    "text": "主力已接近乌江，红九军团继续留在北面，牵制、迷惑追兵。敌军难以及时弄清主力真正的渡江位置。",
+    "chapterId": "chishui",
+    "locations": [
+      "沙土",
+      "乌江南渡区"
+    ],
+    "focus": {
+      "id": "chishui-lower-south",
+      "places": [
+        "太平渡",
+        "仁怀",
+        "鸭溪",
+        "沙土",
+        "乌江南渡区"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=738",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-wujiang-south",
+    "mode": "auto",
+    "date": "1935-03-31",
+    "dateLabel": "3月31日前后 · 南渡乌江",
+    "routeIndex": 39,
+    "side": "red",
+    "place": "乌江南渡区",
+    "headline": "红军主力南渡乌江",
+    "text": "红军组织渡江，突破乌江守备，转到江南。前面阻挡行军的河流，现在又把北面的追兵隔在身后。",
+    "chapterId": "chishui",
+    "locations": [
+      "乌江南渡区",
+      "息烽"
+    ],
+    "focus": {
+      "id": "chishui-lower-south",
+      "places": [
+        "太平渡",
+        "仁怀",
+        "鸭溪",
+        "沙土",
+        "乌江南渡区"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=744",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-guiyang-feint",
+    "mode": "auto",
+    "date": "1935-04-02",
+    "dateLabel": "4月初 · 逼近贵阳",
+    "routeIndex": 39.5,
+    "side": "red",
+    "place": "息烽、贵阳方向",
+    "headline": "红军佯攻息烽、进逼贵阳",
+    "text": "一部向息烽佯动，主力继续南下，造成威胁贵阳的态势。蒋介石此时在贵阳，身边守备兵力有限。",
+    "chapterId": "chishui",
+    "locations": [
+      "息烽",
+      "贵阳"
+    ],
+    "focus": {
+      "id": "chishui-lower-gui",
+      "places": [
+        "乌江南渡区",
+        "息烽",
+        "贵阳",
+        "清水河佯渡区",
+        "龙里"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=754",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-guiyang-rescue",
+    "mode": "auto",
+    "date": "1935-04-02",
+    "dateLabel": "4月初 · 国民党军回援",
+    "routeIndex": 40,
+    "side": "blue",
+    "place": "贵阳",
+    "headline": "蒋介石急调滇军回援贵阳",
+    "text": "国民党方面急调部队回援贵阳，又令距离较近的滇军赶来。追堵红军的原有部署，再次被省城的安全牵动。",
+    "chapterId": "chishui",
+    "locations": [
+      "贵阳",
+      "息烽"
+    ],
+    "focus": {
+      "id": "chishui-lower-gui",
+      "places": [
+        "乌江南渡区",
+        "息烽",
+        "贵阳",
+        "清水河佯渡区",
+        "龙里"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=793",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-qingshui-feint",
+    "mode": "auto",
+    "date": "1935-04-05",
+    "dateLabel": "4月上旬 · 清水河佯动",
+    "routeIndex": 41,
+    "side": "red",
+    "place": "清水河佯渡区",
+    "headline": "红军清水河架桥佯作东渡",
+    "text": "红军在清水河一带架桥，造成准备东渡、会合红二、六军团的印象。国民党方面又把注意力转向东面。",
+    "chapterId": "chishui",
+    "locations": [
+      "贵阳",
+      "清水河佯渡区",
+      "红二、六军团（湘西）"
+    ],
+    "focus": {
+      "id": "chishui-qingshui-feint-hunan",
+      "places": [
+        "贵阳",
+        "桐梓",
+        "红二、六军团（湘西）"
+      ],
+      "maxZoom": 7
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=793",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-between-cities",
+    "mode": "auto",
+    "date": "1935-04-08",
+    "dateLabel": "4月上旬 · 贵阳、龙里之间",
+    "routeIndex": 42,
+    "side": "red",
+    "place": "贵阳、龙里之间",
+    "headline": "红军穿过贵阳、龙里间隙",
+    "text": "主力没有按佯动方向东渡，而是从贵阳、龙里之间南下，再转向云南。进攻贵阳、清水河架桥，都是为了调开追兵。",
+    "chapterId": "chishui",
+    "locations": [
+      "贵阳",
+      "龙里",
+      "清水河佯渡区"
+    ],
+    "focus": {
+      "id": "chishui-lower-gui",
+      "places": [
+        "乌江南渡区",
+        "息烽",
+        "贵阳",
+        "清水河佯渡区",
+        "龙里"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=827",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-yunnan-window",
+    "mode": "auto",
+    "date": "1935-04-09",
+    "dateLabel": "转向云南途中",
+    "routeIndex": 42.3,
+    "side": "red",
+    "place": "云南方向",
+    "headline": "滇军东调，红军乘隙入滇",
+    "text": "部分滇军正向贵阳增援，云南腹地守备因而削弱。红军转向西进，接下来的目标是金沙江；红九军团后来也摆脱追兵赶上。",
+    "chapterId": "chishui",
+    "locations": [
+      "贵阳",
+      "龙里",
+      "昆明"
+    ],
+    "focus": {
+      "id": "chishui-lower-gui",
+      "places": [
+        "乌江南渡区",
+        "息烽",
+        "贵阳",
+        "清水河佯渡区",
+        "龙里"
+      ],
+      "maxZoom": 9
+    },
+    "part": 3,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=3&t=832",
+    "sourceLabel": "视频讲义参考"
+  }
+]

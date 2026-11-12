@@ -29,3 +29,34 @@
 .system-alert{position:absolute;top:max(84px,env(safe-area-inset-top));left:50%;transform:translateX(-50%);width:min(360px,calc(100% - 32px));z-index:1800;background:#e9e6d7f5;color:#33442e;border:1px solid #b6ba9d;border-radius:5px;padding:16px 37px 15px 17px;box-shadow:0 10px 35px #0004;backdrop-filter:blur(12px)}.system-alert strong{font-size:14px;font-weight:500}.system-alert p{font-size:12px;line-height:1.8;margin:9px 0}.system-alert>button:last-child{font-size:12px;color:#85583c;padding:4px 0}.system-alert .alert-close{position:absolute;right:10px;top:12px}.exhibit-dialog .system-alert{position:relative;top:auto;left:auto;transform:none;width:100%;margin:8px 0 20px;box-shadow:none;padding-right:36px}
 
 .event-card-layer .map-event-card{background:rgba(20,35,30,.74);backdrop-filter:blur(9px)}.event-card-layer .map-event-card.blue-event{background:rgba(23,37,49,.74)}@media(max-width:600px){.event-card-layer .map-event-card{padding:10px 12px}.event-card-layer .map-event-card header{font-size:9px}.event-card-layer .map-event-card h3{font-size:13px;margin:7px 0 4px}.event-card-layer .map-event-card p{font-size:11px;line-height:1.65}.event-card-layer .map-event-card .event-context{font-size:10px}.event-card-layer .march-interaction h4{font-size:10px}.event-card-layer .march-interaction button{font-size:11px;padding:6px 7px}.event-card-layer .map-event-card a{font-size:9px}}
+
+/* Month/year transitions use the distance counter's inherited typeface. */
+.calendar-transition{position:absolute;z-index:850;top:max(24px,env(safe-area-inset-top));left:max(24px,env(safe-area-inset-left));height:1.35em;min-width:5em;overflow:hidden;pointer-events:none;font-size:clamp(32px,4.5vw,58px);font-weight:300;letter-spacing:-1.5px;font-variant-numeric:tabular-nums;line-height:1.3;color:#fffbe9a8;text-shadow:0 2px 20px #0006;animation:calendar-presence 2.3s both}
+.calendar-transition span{position:absolute;left:0;top:0;white-space:nowrap}.calendar-old{animation:calendar-out 2.3s both}.calendar-new{animation:calendar-in 2.3s both}
+@keyframes calendar-presence{0%{opacity:0}12%,78%{opacity:1}100%{opacity:0}}
+@keyframes calendar-out{0%,27%{transform:translateY(0);opacity:1}52%,100%{transform:translateY(-105%);opacity:0}}
+@keyframes calendar-in{0%,27%{transform:translateY(105%);opacity:0}52%,100%{transform:translateY(0);opacity:1}}
+.camera-moving .event-card-layer,.camera-moving .event-leaders{visibility:hidden}
+.interval-place-dot span{display:block;width:8px;height:8px;border:1px solid #e8d9b7b0;background:#26352ac0;border-radius:50%;box-shadow:0 0 0 3px #101b1855}
+.interval-place-label.leaflet-tooltip{background:#18261b88;color:#e5dcc4cc;border:0;box-shadow:none;padding:2px 5px;font-size:10px;text-shadow:0 1px 4px #000}.interval-place-label.leaflet-tooltip:before{display:none}
+@media(max-width:600px){.calendar-transition{left:18px;top:20px;font-size:34px}.interval-place-label.leaflet-tooltip{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.calendar-transition{animation:calendar-presence 2.3s both!important}.calendar-transition .calendar-old{display:none}.calendar-transition .calendar-new{animation:none!important;opacity:1;transform:none}}
+.march-interaction .dispatch-options>div{display:grid;gap:5px}.dispatch-options button{display:flex;justify-content:space-between;gap:12px;width:100%}.march-interaction .dispatch-report{padding:6px 8px;background:#ffffff08;border-left:1px solid #c4b18066;font-size:11px}.event-card-layer .flash-event{animation:flash-card .9s both}.flash-event .event-context{display:none}@keyframes flash-card{0%{opacity:0}12%,82%{opacity:1}100%{opacity:0}}
+
+.allied-army-label{color:#efb59e;text-align:center;font-size:12px;font-weight:500;white-space:nowrap;text-shadow:0 1px 5px #000,0 0 8px #000}.allied-army-label small{display:block;font-size:9px;font-weight:400;opacity:.8}.march-interaction .skip-interaction{display:block;margin-top:9px;padding:2px 0;border:0;background:none;font-size:10px;opacity:.6}
+
+.walk-interaction progress{display:block;width:100%;height:5px;accent-color:#dbc18a}.walk-interaction small{display:block;font-size:10px;line-height:1.6;opacity:.7}.walk-interaction button:disabled{opacity:.4;cursor:default}
+
+.maneuver-label{font-size:10px;color:#e4b39a;white-space:nowrap;text-shadow:0 1px 5px #000,0 0 8px #000;pointer-events:none}
+
+/* Stable screen strokes through Leaflet zoom transforms. */
+.map-surface .leaflet-overlay-pane svg path{vector-effect:non-scaling-stroke}
+.map-surface{background:#19231f}
+.event-card-layer .map-event-card{animation:card-appear .22s ease-out}
+@keyframes card-appear{from{opacity:0}to{opacity:1}}
+.event-leaders line{stroke-width:1;opacity:.52}.event-leaders circle{stroke-width:1.3}
+.place-control{pointer-events:none}
+
+@media(max-width:600px){.event-leaders text{font-size:10px}}
+
+.army-approach-arrow{color:#91bee3;font-size:26px;line-height:24px;text-shadow:0 1px 4px #17251e}.army-approach-label{color:#b4d6f1;font-size:11px;text-align:center;text-shadow:0 1px 4px #14231e}.army-approach-label small{display:block;font-size:9px;opacity:.75}.river-name-label{color:#a0d9ec;font-size:14px;letter-spacing:3px;text-shadow:0 1px 4px #14231e}

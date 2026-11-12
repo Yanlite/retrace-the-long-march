@@ -1,0 +1,318 @@
+[
+  {
+    "id": "chishui-old-plan",
+    "mode": "auto",
+    "date": "1934-12-12",
+    "dateLabel": "12月 · 通道转兵前",
+    "routeIndex": 13.4,
+    "side": "red",
+    "place": "通道",
+    "headline": "湘西会合路线面临合围",
+    "text": "湘江战后，红军仍面临到湘西同红二、六军团会合的原计划。敌军也判断到了这一方向，继续北进有被合围的危险。",
+    "locations": [
+      "通道",
+      "黎平",
+      "红二、六军团（湘西）"
+    ],
+    "focus": {
+      "id": "tongdao-options",
+      "places": [
+        "通道",
+        "黎平",
+        "红二、六军团（湘西）"
+      ],
+      "maxZoom": 7
+    },
+    "part": 2,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "chishui-tongdao",
+    "mode": "auto",
+    "date": "1934-12-12",
+    "dateLabel": "12月12日",
+    "routeIndex": 14,
+    "side": "red",
+    "place": "通道",
+    "headline": "通道转兵贵州",
+    "text": "根据敌情，红军改变行军方向，转向敌军力量较弱的贵州。",
+    "locations": [
+      "通道",
+      "黎平"
+    ],
+    "focus": {
+      "id": "chishui-turn",
+      "places": [
+        "通道",
+        "黎平"
+      ],
+      "maxZoom": 9
+    },
+    "part": 2,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "chishui-liping",
+    "mode": "auto",
+    "date": "1934-12-18",
+    "dateLabel": "12月18日",
+    "routeIndex": 15,
+    "side": "red",
+    "place": "黎平",
+    "headline": "黎平会议决定进军黔北",
+    "text": "黎平会议决定向黔北进军，不再按原计划到湘西北会合。转兵不再只是临时绕路，接下来的行动有了新方向。",
+    "locations": [
+      "黎平",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-turn",
+      "places": [
+        "通道",
+        "黎平"
+      ],
+      "maxZoom": 9
+    },
+    "part": 2,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "chishui-wujiang",
+    "mode": "auto",
+    "date": "1935-01-03",
+    "dateLabel": "1935年1月上旬",
+    "routeIndex": 19.3,
+    "side": "red",
+    "place": "乌江",
+    "headline": "红军突破乌江防线",
+    "text": "红军突破乌江防线，向遵义推进。敌军还在南面追赶，渡江为部队争取到进入黔北的机会。",
+    "locations": [
+      "遵义",
+      "贵阳"
+    ],
+    "focus": {
+      "id": "chishui-defense",
+      "places": [
+        "遵义",
+        "娄山关",
+        "绥阳",
+        "团溪"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=10",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-zunyi",
+    "mode": "auto",
+    "date": "1935-01-07",
+    "dateLabel": "1月7日",
+    "routeIndex": 20.6,
+    "side": "red",
+    "place": "遵义",
+    "headline": "红军占领遵义",
+    "text": "中央纵队进入遵义。部队得到短暂休整，召开会议也有了条件。",
+    "locations": [
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-defense",
+      "places": [
+        "遵义",
+        "娄山关",
+        "绥阳",
+        "团溪"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "chishui-defense",
+    "mode": "archive",
+    "date": "1935-01-10",
+    "dateLabel": "1月 · 遵义周边部署",
+    "routeIndex": 20.65,
+    "side": "red",
+    "place": "遵义外围",
+    "headline": "四个军团展开遵义外围防线",
+    "text": "红一军团在北面的娄山关、桐梓一线；红九军团在绥阳附近；红五军团在团溪，红三军团在遵义以南。",
+    "locations": [
+      "遵义",
+      "娄山关",
+      "绥阳",
+      "团溪"
+    ],
+    "focus": {
+      "id": "chishui-defense",
+      "places": [
+        "遵义",
+        "娄山关",
+        "绥阳",
+        "团溪"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=20",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-south",
+    "mode": "archive",
+    "date": "1935-01-10",
+    "dateLabel": "1月 · 敌军部署",
+    "routeIndex": 20.7,
+    "side": "blue",
+    "place": "贵阳、乌江南岸",
+    "headline": "薛岳部进占贵阳、逼近乌江",
+    "text": "薛岳部占领贵阳，前锋向乌江逼近；黔军也在乌江南岸。遵义南面的压力并没有解除。",
+    "locations": [
+      "贵阳",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-ring",
+      "places": [
+        "遵义",
+        "贵阳",
+        "重庆",
+        "宜宾",
+        "毕节"
+      ],
+      "maxZoom": 7.5
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=42",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-east",
+    "mode": "archive",
+    "date": "1935-01-10",
+    "dateLabel": "1月 · 敌军部署",
+    "routeIndex": 20.75,
+    "side": "blue",
+    "place": "湘黔边界",
+    "headline": "湘军筑堡封锁湘黔边界",
+    "text": "湘军在湘黔边界修筑堡垒，防止红军再次进入湖南。各路敌军都在围堵，但各有各的打算。",
+    "locations": [
+      "通道",
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-ring",
+      "places": [
+        "遵义",
+        "贵阳",
+        "重庆",
+        "宜宾",
+        "毕节"
+      ],
+      "maxZoom": 7.5
+    },
+    "part": 2,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=2&t=50",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "chishui-conference",
+    "mode": "auto",
+    "date": "1935-01-15",
+    "dateLabel": "1月15日",
+    "routeIndex": 20.85,
+    "side": "red",
+    "place": "遵义",
+    "headline": "遵义会议检讨军事指挥",
+    "text": "政治局扩大会议集中讨论此前军事指挥上的问题。湘江战役等失利，需要从指挥和组织上总结。",
+    "locations": [
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-defense",
+      "places": [
+        "遵义",
+        "娄山关",
+        "绥阳",
+        "团溪"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "chishui-conference-end",
+    "mode": "auto",
+    "date": "1935-01-17",
+    "dateLabel": "1月17日",
+    "routeIndex": 20.95,
+    "side": "red",
+    "place": "遵义",
+    "headline": "遵义会议调整领导",
+    "text": "会议纠正军事指挥上的错误，调整领导。会议及随后的一系列调整，推动形成新的军事领导。",
+    "locations": [
+      "遵义"
+    ],
+    "focus": {
+      "id": "chishui-defense",
+      "places": [
+        "遵义",
+        "娄山关",
+        "绥阳",
+        "团溪"
+      ],
+      "maxZoom": 10
+    },
+    "part": 2,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "chishui-strategy",
+    "mode": "auto",
+    "date": "1935-01-17",
+    "dateLabel": "遵义会议后 · 战略选择",
+    "routeIndex": 21,
+    "side": "red",
+    "place": "遵义",
+    "headline": "红军决定北渡长江，会合红四方面军",
+    "text": "留在一地建立根据地、向湘西会合、北上同红四方面军会合，是当时需要权衡的方向。中央红军决定争取北渡长江，向川西北发展。",
+    "locations": [
+      "遵义",
+      "宜宾",
+      "泸州",
+      "红二、六军团（湘西）",
+      "红四方面军（川陕边界）"
+    ],
+    "focus": {
+      "id": "chishui-strategy-targets",
+      "places": [
+        "遵义",
+        "宜宾",
+        "泸州",
+        "红二、六军团（湘西）",
+        "红四方面军（川陕边界）"
+      ],
+      "maxZoom": 7,
+      "points": [
+        [
+          28.94,
+          105.45
+        ]
+      ],
+      "regional": true
+    },
+    "part": 2,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  }
+]

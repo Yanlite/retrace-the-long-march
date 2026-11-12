@@ -1,0 +1,168 @@
+[
+  {
+    "id": "action-36",
+    "mode": "auto",
+    "date": "1935-06-12",
+    "routeIndex": 62,
+    "side": "red",
+    "place": "夹金山",
+    "headline": "夹金山",
+    "text": "红军翻越夹金山，向懋功地区推进。",
+    "context": "越往上越冷，空气也越稀薄，伤病员和体弱者尤其难走。",
+    "locations": [
+      "夹金山",
+      "懋功"
+    ],
+    "anchor": [
+      30.85,
+      102.7
+    ],
+    "focus": {
+      "id": "jiajin-maogong",
+      "places": [
+        "夹金山",
+        "懋功",
+        "红四方面军（懋功地区）"
+      ],
+      "maxZoom": 9.5,
+      "points": [],
+      "regional": true
+    },
+    "part": 10,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "action-37",
+    "mode": "auto",
+    "date": "1935-06-18",
+    "routeIndex": 64,
+    "side": "red",
+    "place": "懋功地区",
+    "headline": "懋功地区",
+    "text": "中央红军与红四方面军会合，随后继续研究北上方针。",
+    "locations": [
+      "懋功",
+      "红四方面军（懋功地区）"
+    ],
+    "anchor": [
+      31,
+      102.36
+    ],
+    "focus": {
+      "id": "jiajin-maogong",
+      "places": [
+        "夹金山",
+        "懋功",
+        "红四方面军（懋功地区）"
+      ],
+      "maxZoom": 9.5,
+      "points": [],
+      "regional": true
+    },
+    "part": 10,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "action-38",
+    "mode": "auto",
+    "date": "1935-08-21",
+    "routeIndex": 68,
+    "side": "red",
+    "place": "川西北草地",
+    "headline": "川西北草地",
+    "text": "北上的红军进入草地，面临沼泽、寒冷与缺粮的困难。",
+    "anchors": [
+      {
+        "name": "川西北草地（区域示意）",
+        "point": [
+          32.650000000000006,
+          103.25
+        ]
+      }
+    ],
+    "anchor": [
+      32.650000000000006,
+      103.25
+    ],
+    "focus": {
+      "id": "grassland-region",
+      "places": [],
+      "maxZoom": 8.5,
+      "points": [
+        [
+          32.16,
+          103.05
+        ],
+        [
+          33.22,
+          102.77
+        ]
+      ],
+      "regional": true
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "action-39",
+    "mode": "auto",
+    "date": "1935-09-17",
+    "routeIndex": 74,
+    "side": "red",
+    "place": "腊子口",
+    "headline": "天险腊子口",
+    "text": "一路红军攀上侧面的峭壁，从空中配合正面主力部队进攻。红军突破险隘，打开继续北上的通道。",
+    "locations": [
+      "腊子口"
+    ],
+    "focus": {
+      "id": "lazikou",
+      "places": [
+        "腊子口"
+      ],
+      "maxZoom": 10.5,
+      "points": [],
+      "regional": true
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "action-40",
+    "mode": "auto",
+    "date": "1935-10-19",
+    "routeIndex": 84,
+    "side": "red",
+    "place": "吴起镇",
+    "headline": "吴起镇",
+    "text": "中央红军抵达陕北，主力长征胜利结束。",
+    "locations": [
+      "吴起镇"
+    ],
+    "focus": {
+      "id": "wuqi-reunion",
+      "places": [
+        "吴起镇"
+      ],
+      "maxZoom": 8.5,
+      "points": [
+        [
+          35.69,
+          105.05
+        ],
+        [
+          35.82,
+          105.68
+        ]
+      ],
+      "regional": true
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
+    "sourceLabel": "党史参考"
+  }
+]

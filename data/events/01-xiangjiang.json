@@ -1,0 +1,865 @@
+[
+  {
+    "id": "xiang-aim",
+    "mode": "auto",
+    "date": "1934-11-25",
+    "dateLabel": "11月下旬 · 战前",
+    "routeIndex": 6.6,
+    "side": "red",
+    "place": "道县",
+    "headline": "红军拟赴湘西会合",
+    "text": "中央红军准备继续西进，争取与湘西的红二、六军团会合。前锋已到道县，大队还在道县以东。",
+    "locations": [
+      "道县",
+      "红二、六军团（湘西）"
+    ],
+    "focus": {
+      "id": "xiang-meeting-target",
+      "places": [
+        "道县",
+        "红二、六军团（湘西）"
+      ],
+      "maxZoom": 7
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=86",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-net",
+    "mode": "auto",
+    "date": "1934-11-25",
+    "dateLabel": "11月下旬 · 战前",
+    "routeIndex": 6.95,
+    "side": "blue",
+    "place": "全州、兴安、灌阳",
+    "headline": "国民党军部署湘江围堵",
+    "text": "北面的湘军向全州方向封堵；桂军控制全州、兴安、灌阳一带；东面的追兵把红军向西压。",
+    "context": "北面、南面都是山，东侧是来路，西面是湘江。部队需要抢在围堵收紧前控制渡口。",
+    "locations": [
+      "全州",
+      "兴安",
+      "灌阳",
+      "道县"
+    ],
+    "anchors": [
+      {
+        "name": "湘军 · 北面（示意）",
+        "point": [
+          26.15,
+          111.05
+        ]
+      },
+      {
+        "name": "薛岳部 · 零陵方向（示意）",
+        "point": [
+          26.27,
+          111.57
+        ]
+      },
+      {
+        "name": "周浑元部 · 东后方（示意）",
+        "point": [
+          25.98,
+          112.13
+        ]
+      },
+      {
+        "name": "湘军 · 东南侧（示意）",
+        "point": [
+          25.28,
+          111.94
+        ]
+      },
+      {
+        "name": "桂军 · 全州方向",
+        "point": [
+          25.93,
+          110.97
+        ]
+      },
+      {
+        "name": "桂军 · 兴安方向",
+        "point": [
+          25.6,
+          110.66
+        ]
+      },
+      {
+        "name": "桂军 · 灌阳方向",
+        "point": [
+          25.54,
+          111.09
+        ]
+      }
+    ],
+    "anchor": [
+      25.94,
+      111.42
+    ],
+    "focus": {
+      "id": "xiang-overview",
+      "places": [
+        "道县",
+        "全州",
+        "兴安",
+        "灌阳",
+        "零陵"
+      ],
+      "points": [
+        [
+          25.18,
+          110.5
+        ],
+        [
+          26.4,
+          112.15
+        ]
+      ],
+      "maxZoom": 8.5
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=97",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-warning",
+    "mode": "auto",
+    "date": "1934-11-25",
+    "dateLabel": "11月下旬 · 战前",
+    "routeIndex": 7.15,
+    "side": "red",
+    "place": "道县",
+    "headline": "红军获悉围堵部署，仍继续西进",
+    "text": "红军截获敌军部署的情报。红军内部出现向北另求机动、另求机动的意见，但原定西进方向没有改变。",
+    "locations": [
+      "道县"
+    ],
+    "focus": {
+      "id": "xiang-overview",
+      "places": [
+        "道县",
+        "全州",
+        "兴安",
+        "灌阳",
+        "零陵"
+      ],
+      "points": [
+        [
+          25.18,
+          110.5
+        ],
+        [
+          26.4,
+          112.15
+        ]
+      ],
+      "maxZoom": 8.5
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=121",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-rivalry",
+    "mode": "auto",
+    "date": "1934-11-25",
+    "dateLabel": "11月下旬 · 战前",
+    "routeIndex": 7.35,
+    "side": "blue",
+    "place": "广西方向",
+    "headline": "桂系防备中央军进入广西",
+    "text": "蒋介石希望红军与桂军消耗；桂系则担心中央军借追击进入广西，不愿替对方承担全部损失。",
+    "locations": [
+      "全州",
+      "兴安",
+      "灌阳"
+    ],
+    "focus": {
+      "id": "xiang-gap",
+      "places": [
+        "全州",
+        "兴安",
+        "灌阳",
+        "恭城"
+      ],
+      "maxZoom": 9
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=211",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-withdraw",
+    "mode": "auto",
+    "date": "1934-11-25",
+    "dateLabel": "11月下旬 · 战前",
+    "routeIndex": 7.6,
+    "side": "blue",
+    "place": "恭城",
+    "headline": "桂军撤向恭城",
+    "text": "桂系以防守广西门户为由，把全州、兴安、灌阳一带的部队向恭城方向撤回。",
+    "context": "桂系打算让红军尽快出境，自己从后面跟进，避免先同红军硬拼。",
+    "locations": [
+      "恭城",
+      "全州",
+      "兴安",
+      "灌阳"
+    ],
+    "focus": {
+      "id": "xiang-gap",
+      "places": [
+        "全州",
+        "兴安",
+        "灌阳",
+        "恭城"
+      ],
+      "maxZoom": 9
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=272",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-scout",
+    "mode": "auto",
+    "date": "1934-11-25",
+    "dateLabel": "11月下旬 · 战前",
+    "routeIndex": 7.8,
+    "side": "red",
+    "place": "全州、兴安之间",
+    "headline": "红军侦察发现湘江防线空隙",
+    "text": "红军侦察发现湘江部分地段守备空虚。如果迅速向西，就有机会抢在敌军回防前控制渡口。",
+    "locations": [
+      "全州",
+      "兴安"
+    ],
+    "focus": {
+      "id": "xiang-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=193",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-delay",
+    "mode": "auto",
+    "date": "1934-11-25",
+    "dateLabel": "11月下旬 · 战前",
+    "routeIndex": 8.2,
+    "side": "red",
+    "place": "道县",
+    "headline": "中央纵队在道县行进迟缓",
+    "text": "队伍因携带大量机关物资和重辎重，行进缓慢。中央纵队未能迅速通过道县一带。",
+    "locations": [
+      "道县"
+    ],
+    "focus": {
+      "id": "xiang-overview",
+      "places": [
+        "道县",
+        "全州",
+        "兴安",
+        "灌阳",
+        "零陵"
+      ],
+      "points": [
+        [
+          25.18,
+          110.5
+        ],
+        [
+          26.4,
+          112.15
+        ]
+      ],
+      "maxZoom": 8.5
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=302",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-return",
+    "mode": "auto",
+    "date": "1934-11-26",
+    "dateLabel": "11月下旬 · 敌军回防",
+    "routeIndex": 8.6,
+    "side": "blue",
+    "place": "全州、兴安、灌阳",
+    "headline": "湘军、桂军回防湘江",
+    "text": "蒋介石催促桂军恢复封堵；桂军向兴安、灌阳推进，北面湘军也赶向全州。",
+    "locations": [
+      "全州",
+      "兴安",
+      "灌阳"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=312",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-orders",
+    "mode": "auto",
+    "date": "1934-11-27",
+    "dateLabel": "11月27日前后",
+    "routeIndex": 8.7,
+    "side": "red",
+    "place": "全州、界首、新圩",
+    "headline": "红一、三军团分路抢占渡口",
+    "text": "红一军团向全州方向推进；红三军团向兴安、灌阳方向展开。任务是占住渡口，也守住两翼。",
+    "locations": [
+      "全州",
+      "界首",
+      "新圩",
+      "兴安",
+      "灌阳"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=345",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-north-enemy",
+    "mode": "auto",
+    "date": "1934-11-27",
+    "dateLabel": "11月27—28日",
+    "routeIndex": 9,
+    "side": "blue",
+    "place": "全州",
+    "headline": "湘军抢先占领全州",
+    "text": "红一军团未能抢先控制全州，北面敌军开始向渡江走廊施压。",
+    "locations": [
+      "全州",
+      "脚山铺"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=356",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-north-line",
+    "mode": "archive",
+    "date": "1934-11-27",
+    "dateLabel": "11月27—28日",
+    "routeIndex": 9.02,
+    "side": "red",
+    "place": "脚山铺",
+    "headline": "红一军团在脚山铺阻击湘军",
+    "text": "红一军团在全州以南建立阻击阵地，以有限的丘陵抵挡湘军，保护南面的渡口。",
+    "context": "阵地主要是几个小山包，地形算不上有利。",
+    "locations": [
+      "脚山铺",
+      "全州",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=375",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-south-line",
+    "mode": "archive",
+    "date": "1934-11-27",
+    "dateLabel": "11月27—28日",
+    "routeIndex": 9.2,
+    "side": "red",
+    "place": "界首、光华铺",
+    "headline": "红三军团控制界首、布防光华铺",
+    "text": "红三军团控制界首渡口，并在南面的光华铺布防，阻止由兴安方向北上的桂军。",
+    "context": "光华铺地势平坦，难以依靠地形抵消敌军的火力。",
+    "locations": [
+      "界首",
+      "光华铺",
+      "兴安"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=375",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-xinxu-line",
+    "mode": "archive",
+    "date": "1934-11-27",
+    "dateLabel": "11月27—28日",
+    "routeIndex": 9.4,
+    "side": "red",
+    "place": "新圩",
+    "headline": "红五师在新圩阻击桂军",
+    "text": "桂军已控制灌阳。红三军团第五师在新圩阻击，防止敌军从东南侧切断主力通往湘江的道路。",
+    "locations": [
+      "新圩",
+      "灌阳",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=408",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-rear-line",
+    "mode": "archive",
+    "date": "1934-11-28",
+    "dateLabel": "11月28日前后",
+    "routeIndex": 9.55,
+    "side": "red",
+    "place": "文市",
+    "headline": "中央纵队到达文市",
+    "text": "中央纵队向文市一带前进；红五军团承担掩护任务，第三十四师在后方阻击追兵。",
+    "locations": [
+      "文市",
+      "道县",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=408",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-pursuit",
+    "mode": "auto",
+    "date": "1934-11-28",
+    "dateLabel": "11月28日前后",
+    "routeIndex": 9.57,
+    "side": "blue",
+    "place": "道县",
+    "headline": "周浑元部占道县后西追",
+    "text": "周浑元部占领道县后准备向西追击，红军后卫的回旋空间继续缩小。",
+    "locations": [
+      "道县",
+      "文市"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=426",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-northern-fight",
+    "mode": "auto",
+    "date": "1934-11-29",
+    "dateLabel": "11月29日前后",
+    "routeIndex": 9.72,
+    "side": "red",
+    "place": "脚山铺",
+    "headline": "湘军猛攻脚山铺",
+    "text": "北线战斗激烈，湘军持续进攻。红一军团必须稳住阵地，为江边后续队伍争取时间。",
+    "context": "敌军一度逼近红军指挥所。",
+    "locations": [
+      "脚山铺",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=438",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-bridges",
+    "mode": "auto",
+    "date": "1934-11-29",
+    "dateLabel": "11月29日前后",
+    "routeIndex": 9.9,
+    "side": "red",
+    "place": "界首渡口",
+    "headline": "红军冒敌机轰炸架设浮桥",
+    "text": "渡口部队架设、维护浮桥，人员与辎重向西岸转移；敌机轰炸又威胁桥梁和通行秩序。",
+    "locations": [
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=446",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-southern-fight",
+    "mode": "archive",
+    "date": "1934-11-29",
+    "dateLabel": "11月29日前后",
+    "routeIndex": 10.05,
+    "side": "blue",
+    "place": "光华铺、新圩",
+    "headline": "桂军进攻光华铺、新圩",
+    "text": "桂军进攻光华铺与新圩方向，既威胁渡口南端，也威胁江东行军道路。",
+    "context": "新圩主要由两个团防守，面对的是桂军七个团。",
+    "locations": [
+      "光华铺",
+      "新圩",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=459",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-baggage",
+    "mode": "auto",
+    "date": "1934-11-29",
+    "dateLabel": "11月29日前后",
+    "routeIndex": 10.2,
+    "side": "red",
+    "place": "文市至湘江",
+    "headline": "重辎重拖慢中央纵队行军",
+    "text": "中央纵队离渡口约七十公里，却走了四天。重型机器和大批物资都要搬运，前线只能继续阻击。",
+    "locations": [
+      "文市",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=487",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-detour",
+    "mode": "archive",
+    "date": "1934-11-30",
+    "dateLabel": "战斗后段",
+    "routeIndex": 10.35,
+    "side": "red",
+    "place": "湘江东岸",
+    "headline": "红八、九军团受阻绕行",
+    "text": "红八、九军团原定前进道路受阻，不得不绕行追赶；东面追兵又不断逼近。",
+    "locations": [
+      "文市",
+      "新圩",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=510",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-relief",
+    "mode": "archive",
+    "date": "1934-11-30",
+    "dateLabel": "11月30日前后",
+    "routeIndex": 10.5,
+    "side": "red",
+    "place": "新圩",
+    "headline": "红十八团接防新圩",
+    "text": "第五师苦战后转移，第六师第十八团接防新圩方向，继续为后续部队争取时间。",
+    "context": "此前阻击的第五师已伤亡过半。",
+    "locations": [
+      "新圩",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-battle-corridor",
+      "places": [
+        "全州",
+        "脚山铺",
+        "界首",
+        "光华铺",
+        "文市",
+        "新圩"
+      ],
+      "maxZoom": 10
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=528",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-main-crossed",
+    "mode": "auto",
+    "date": "1934-12-01",
+    "dateLabel": "12月1日",
+    "routeIndex": 10.7,
+    "side": "red",
+    "place": "界首渡口",
+    "headline": "中央纵队渡过湘江",
+    "text": "中央机关和中央纵队渡过湘江。阻击部队的坚守，为主力争到了这段至关重要的时间。",
+    "context": "江东还有部队没有过来。",
+    "locations": [
+      "界首",
+      "新圩"
+    ],
+    "focus": {
+      "id": "xiang-last-crossings",
+      "places": [
+        "界首",
+        "凤凰嘴渡口",
+        "新圩",
+        "文市"
+      ],
+      "maxZoom": 10.5
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=551",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-closing",
+    "mode": "archive",
+    "date": "1934-12-01",
+    "dateLabel": "12月1日 · 战斗后段",
+    "routeIndex": 10.78,
+    "side": "blue",
+    "place": "湘江东岸",
+    "headline": "湘江渡口相继失守",
+    "text": "北面红军阻击线后撤，南面敌军逼近界首，桂军进入江东更多地域，渡江通道不断缩小。",
+    "locations": [
+      "脚山铺",
+      "界首",
+      "光华铺"
+    ],
+    "focus": {
+      "id": "xiang-last-crossings",
+      "places": [
+        "界首",
+        "凤凰嘴渡口",
+        "新圩",
+        "文市"
+      ],
+      "maxZoom": 10.5
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=562",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-last-crossing",
+    "mode": "archive",
+    "date": "1934-12-01",
+    "dateLabel": "12月1日 · 战斗后段",
+    "routeIndex": 10.88,
+    "side": "red",
+    "place": "凤凰嘴渡口",
+    "headline": "后续部队抢渡凤凰嘴",
+    "text": "战斗后段，凤凰嘴渡口仍在勉强维持渡运，后续部队继续抢渡。",
+    "locations": [
+      "凤凰嘴渡口",
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-last-crossings",
+      "places": [
+        "界首",
+        "凤凰嘴渡口",
+        "新圩",
+        "文市"
+      ],
+      "maxZoom": 10.5
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=571",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-cut-off",
+    "mode": "auto",
+    "date": "1934-12-01",
+    "dateLabel": "12月1日起 · 后续突围",
+    "routeIndex": 10.96,
+    "side": "red",
+    "place": "新圩、湘江东岸",
+    "headline": "红三十四师等部被阻江东",
+    "text": "第十八团在阻击中遭受毁灭性损失；第三十四师等后卫部队未能随主力过江，继续在包围中战斗、突围。",
+    "locations": [
+      "新圩",
+      "文市"
+    ],
+    "focus": {
+      "id": "xiang-last-crossings",
+      "places": [
+        "界首",
+        "凤凰嘴渡口",
+        "新圩",
+        "文市"
+      ],
+      "maxZoom": 10.5
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=578",
+    "sourceLabel": "视频讲义参考"
+  },
+  {
+    "id": "xiang-cost",
+    "mode": "archive",
+    "date": "1934-12-01",
+    "dateLabel": "战后 · 继续西进",
+    "routeIndex": 11,
+    "side": "red",
+    "place": "湘江西岸",
+    "headline": "湘江突围损失惨重",
+    "text": "中央红军突破湘江封锁线，但兵力遭到严重削弱。阻击、渡江和后卫突围中的损失，促使部队反思此前的指挥与行动方式。",
+    "locations": [
+      "界首"
+    ],
+    "focus": {
+      "id": "xiang-last-crossings",
+      "places": [
+        "界首",
+        "凤凰嘴渡口",
+        "新圩",
+        "文市"
+      ],
+      "maxZoom": 10.5
+    },
+    "part": 1,
+    "source": "https://www.bilibili.com/video/BV1fV411H7VK/?p=1&t=588",
+    "sourceLabel": "视频讲义参考"
+  }
+]
