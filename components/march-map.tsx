@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 import MarchInteraction from './march-interaction';
 import type * as Leaflet from 'leaflet';
 import { milestones, routePosition } from '../lib/engine.mjs';
@@ -9,10 +9,12 @@ import {geographyAt,alliedRegionsAt,tuchengDeploymentAt} from '../lib/map-contex
 import {layoutCards,cardEdge} from '../lib/event-layout.mjs';
 import {cameraPoints} from '../lib/camera-points.mjs';
 import {controlAt} from '../lib/place-control.mjs';
-type Props={realMeters:number;walking:boolean;events:any[];meters:number;follow:boolean;overview:number;layer:'terrain'|'satellite';onStatus:(s:string)=>void;onEventsVisible:(ids:string[])=>void;onInteractionComplete:(id:string)=>void};
+type Props={realMeters:number;walking:boolean;events:any[];meters:number;follow:boolean;overview:number;resetRevision:number;layer:'terrain'|'satellite';onStatus:(s:string)=>void;onEventsVisible:(ids:string[])=>void;onInteractionComplete:(id:string)=>void};
 type Scene={map:Leaflet.Map;L:typeof Leaflet;trail:Leaflet.Polyline;marker:Leaflet.Marker;nodes:Leaflet.Marker[];baseRoute:Leaflet.Polyline;baseShadow:Leaflet.Polyline;tile?:Leaflet.TileLayer};
-export default function MarchMap({realMeters,walking,events,meters,follow,overview,layer,onStatus,onEventsVisible,onInteractionComplete}:Props){
+export default function MarchMap({realMeters,walking,events,meters,follow,overview,resetRevision,layer,onStatus,onEventsVisible,onInteractionComplete}:Props){
  const root=useRef<HTMLDivElement>(null),scene=useRef<Scene|null>(null),riverLayers=useRef<Record<string,Leaflet.Polyline[]>>({}),moving=useRef(false);
+ const returnToMarch = useRef(false);
+ const leaders = useRef<SVGSVGElement>(null);
  const geography=geographyAt(meters);
  const geographyRef=useRef(geography);geographyRef.current=geography;
  const labelledPlaces=new Set(events.flatMap(e=>eventPlaces(e).map((p:any)=>p.name))),labelledKey=[...labelledPlaces].join('|');
@@ -31,7 +33,7 @@ export default function MarchMap({realMeters,walking,events,meters,follow,overvi
  const current=useRef({meters,follow,onStatus,onEventsVisible,onInteractionComplete});current.current={meters,follow,onStatus,onEventsVisible,onInteractionComplete};
  useEffect(()=>{let disposed=false;let resize:ResizeObserver|undefined;
   import('leaflet').then(L=>{if(disposed||!root.current)return;
-   const map=L.map(root.current,{zoomControl:false,zoomSnap:.25,minZoom:3,maxZoom:13,renderer:L.svg({padding:1})});
+   const map=L.map(root.current,{zoomControl:false,zoomAnimation:false,zoomSnap:.25,minZoom:3,maxZoom:13,renderer:L.svg({padding:1})});
    map.attributionControl.setPrefix('<a href="https://leafletjs.com" target="_blank" rel="noopener">Leaflet</a>');
    const compact=root.current.clientWidth<600;
    map.setView(routePosition(current.current.meters).point as Leaflet.LatLngTuple,7);
@@ -55,7 +57,7 @@ export default function MarchMap({realMeters,walking,events,meters,follow,overvi
    map.on('moveend',()=>{moving.current=false;
     const p=routePosition(current.current.meters);trail.setLatLngs(p.line as Leaflet.LatLngTuple[]);marker.setLatLng(p.point as Leaflet.LatLngTuple);
     root.current?.parentElement?.classList.remove('camera-moving');setReadyShot(shotRef.current);setSettledRevision(v=>v+1);});
-   const inspect=()=>{manualView.current=true;map.stop();};
+   const inspect=()=>{manualView.current=true;returnToMarch.current=false;map.stop();};
    map.on('dragstart',()=>{dragging.current=true;inspect();});
    map.on('dragend',()=>{dragging.current=false;});
    map.getContainer().addEventListener('wheel',inspect,{passive:true});
@@ -82,15 +84,38 @@ export default function MarchMap({realMeters,walking,events,meters,follow,overvi
   if(!moving.current){s.trail.setLatLngs(p.line as Leaflet.LatLngTuple[]);s.marker.setLatLng(p.point as Leaflet.LatLngTuple);}
   reunionMarkers.current.forEach(marker=>{const visible=meters>=milestones[milestones.length-1].meters;marker.setOpacity(visible?1:0);marker.getTooltip()?.setOpacity(visible?1:0);});
   s.nodes.forEach((node,i)=>node.getElement()?.classList.toggle('passed',milestones[i].meters<=meters+.01));
-  if(!follow){s.map.stop();s.map.fire('moveend');return;}
+  if(!follow){returnToMarch.current=false;s.map.stop();s.map.fire('moveend');return;}
   if(dragging.current)return;
   if(manualView.current){manualView.current=false;setViewRevision(v=>v+1);}
-  if(!focused.current&&!moving.current)s.map.panTo(p.point as Leaflet.LatLngTuple,{animate:false});
+  if(!focused.current&&!moving.current&&!returnToMarch.current)s.map.panTo(p.point as Leaflet.LatLngTuple,{animate:false});
  },[meters,follow]);
+ useEffect(() => {
+  const s = scene.current;
+  if (!s || resetRevision === 0) return;
+  manualView.current = false;
+  returnToMarch.current = false;
+  s.map.stop();
+  s.map.setView(routePosition(0).point as Leaflet.LatLngTuple, 7, {animate: false});
+ }, [resetRevision]);
  // A shot must contain every leader endpoint in the unobscured map area.
  useEffect(()=>{
   const frame=()=>{const s=scene.current;if(!s)return;
-   if(!events.length||!follow||manualView.current||dragging.current){setReadyShot(shotKey);return;}
+   if (!follow || manualView.current || dragging.current) {
+    setReadyShot(shotKey);
+    return;
+   }
+   if (!events.length) {
+    const shouldReturn = returnToMarch.current;
+    returnToMarch.current = false;
+    if (shouldReturn) {
+     s.map.stop();
+     const destination = routePosition(current.current.meters).point as Leaflet.LatLngTuple;
+     s.map.panTo(destination, {animate: true, duration: .65});
+    } else {
+     setReadyShot(shotKey);
+    }
+    return;
+   }
    const size=s.map.getSize(),compact=size.x<600;
    const entries=events.map(e=>({id:e.id,height:interactionFor(e)?340:210}));
    rectsRef.current=layoutCards(entries,size.x,size.y,[],rectsRef.current);
@@ -105,6 +130,7 @@ export default function MarchMap({realMeters,walking,events,meters,follow,overvi
    if(visible&&s.map.getZoom()>=zoom-.8){setReadyShot(shotKey);return;}
    const nw=s.map.project(bounds.getNorthWest(),zoom),se=s.map.project(bounds.getSouthEast(),zoom);
    const center=s.map.unproject(nw.add(se).divideBy(2).subtract(s.L.point((safe.left+safe.right-size.x)/2,(safe.top+safe.bottom-size.y)/2)),zoom);
+   returnToMarch.current = true;
    s.map.stop();s.map.flyTo(center,zoom,{duration:.65});
   };frame();const el=root.current;el?.addEventListener('map-ready',frame);const resize=()=>frame();scene.current?.map.on('resize',resize);
   return()=>{el?.removeEventListener('map-ready',frame);scene.current?.map.off('resize',resize);};
@@ -187,18 +213,58 @@ export default function MarchMap({realMeters,walking,events,meters,follow,overvi
   s.nodes.forEach((node,i)=>{const label=node.getTooltip()?.getElement();if(label)label.style.visibility=(decisionRef.current&&milestones[i].meters>current.current.meters)||[...labelledPlaces].some(name=>(String(milestones[i].place)+String(milestones[i].name)).includes(name))?'hidden':'';});
   const entries=events.map(e=>({event:e,id:e.id,anchor:project(eventAnchor(e)),height:cardNodes.current[e.id]?.getBoundingClientRect().height||(interactionFor(e)?345:235)}));
   const rects=layoutCards(entries,size.x,size.y,route,rectsRef.current);rectsRef.current=rects;
-  setCards(entries.map((entry,i)=>({...entry,rect:rects[i],places:eventPlaces(entry.event).map((p:{name:string;point:number[]})=>({...p,screen:project(p.point)}))})));
+  setCards(entries.map((entry,i)=>({...entry,rect:rects[i],places:eventPlaces(entry.event)})));
  });};
  const setup=()=>{const s=scene.current;if(!s)return;attached=s.map;s.map.on('moveend zoomend resize',update);update();};setup();const el=root.current;el?.addEventListener('map-ready',setup);
  const resize=new ResizeObserver(update);Object.values(cardNodes.current).forEach(el=>{if(el)resize.observe(el);});
  return()=>{cancelAnimationFrame(raf);attached?.off('moveend zoomend resize',update);el?.removeEventListener('map-ready',setup);resize.disconnect();};
  },[events,answers]);
+ // Update the overlay in the same Leaflet frame as the base map.
+ useLayoutEffect(() => {
+  const s = scene.current;
+  if (!s || !leaders.current) return;
+  const groups = leaders.current.querySelectorAll('g[data-leader]');
+  const pins = cards.flatMap(card => {
+   const places = card.places.length ? card.places : [{point:eventAnchor(card.event)}];
+   return places.map((place:{point:number[]}, index:number) => ({point:place.point, rect:card.rect, index}));
+  });
+  const update = () => {
+   const width = s.map.getSize().x;
+   pins.forEach(({point, rect, index}, i) => {
+    const group = groups[i];
+    const screen = s.map.latLngToContainerPoint(point as Leaflet.LatLngTuple);
+    const edge = cardEdge(rect, screen);
+    const [line, circle, label] = Array.from(group.children);
+    line.setAttribute('x1', String(edge.x));
+    line.setAttribute('y1', String(edge.y));
+    line.setAttribute('x2', String(screen.x));
+    line.setAttribute('y2', String(screen.y));
+    circle.setAttribute('cx', String(screen.x));
+    circle.setAttribute('cy', String(screen.y));
+    const alignLeft = screen.x > width - 120;
+    label.setAttribute('text-anchor', alignLeft ? 'end' : 'start');
+    label.setAttribute('x', String(screen.x + (alignLeft ? -10 : 10)));
+    label.setAttribute('y', String(screen.y + (index >= 4 && index % 2 === 0 ? 16 : -9)));
+   });
+  };
+  update();
+  s.map.on('move resize', update);
+  return () => { s.map.off('move resize', update); };
+ }, [cards]);
+ const cardsReady = readyShot === shotKey && cards.map(card => card.id).join('|') === shotKey;
  function answer(event:any,index:number){const id=event.id,q=interactionFor(event);setAnswers(old=>{const next={...old,[id]:index};try{localStorage.setItem('long-march-reflections-v1',JSON.stringify(next));}catch{}return next;});
   if(q&&(index===-1||!['dispatch','compare'].includes(q.kind)||index===(1<<q.options.length)-1))current.current.onInteractionComplete(id);
  }
 
  return <div className="map-canvas"><div ref={root} className="map-surface" role="img" aria-label="中央红军长征历史示意地图"/>
-  <svg className="event-leaders" style={{visibility:readyShot===shotKey?undefined:"hidden"}} aria-hidden="true">{cards.flatMap(card=>{const points=card.places.length?card.places:[{name:String(card.event.place),screen:card.anchor}];return points.map((place:any,i:number)=>{const edge=cardEdge(card.rect,place.screen);return <g key={card.id+'-'+i} className={card.event.side==='red'?'red-leader':'blue-leader'}><line x1={edge.x} y1={edge.y} x2={place.screen.x} y2={place.screen.y} strokeDasharray={i?'3 5':undefined}/><circle cx={place.screen.x} cy={place.screen.y} r={i?4:6}/><text textAnchor={place.screen.x>(root.current?.clientWidth||1000)-120?'end':'start'} x={place.screen.x+(place.screen.x>(root.current?.clientWidth||1000)-120?-10:10)} y={place.screen.y+(i>=4&&i%2===0?16:-9)}>{place.name.replace(/ · /g,'·').replace(/方向/g,'').replace(/（示意）/g,'')}</text></g>;});})}</svg>
-  <div className="event-card-layer" style={{visibility:readyShot===shotKey?undefined:"hidden"}}>{cards.map(card=>{const e=card.event,q=interactionFor(e) as any,chosen=answers[e.id],preview=chosen===undefined?q?.preview:undefined;return <div key={e.id} ref={el=>{cardNodes.current[e.id]=el;}} className={'map-event-card '+(e.side==='red'?'red-event':'blue-event')+(e.playbackMode==='flash'?' flash-event':'')} data-event-id={e.id} style={{left:card.rect.x,top:card.rect.y,width:card.rect.w,maxHeight:card.rect.h}}><header><time>{String(e.dateLabel||e.date)}</time><span>{e.side==='red'?'红军':'国民党军'}</span></header><h3>{String(preview?.headline||e.headline||e.place)}</h3><p>{String(preview?.text||e.text)}</p>{!preview&&e.context&&<p className="event-context">{e.context}</p>}{q&&e.playbackMode!=='flash'&&<MarchInteraction realMeters={realMeters} walking={walking} event={e} chosen={chosen} onAnswer={i=>answer(e,i)}/>} <a href={e.source} target="_blank" rel="noopener noreferrer">{e.sourceLabel||'参考'} ↗</a></div>;})}</div>
+  <svg ref={leaders} className="event-leaders" style={{visibility:cardsReady?undefined:'hidden'}} aria-hidden="true">
+   {cards.flatMap(card => (card.places.length ? card.places : [{name:String(card.event.place),point:eventAnchor(card.event)}]).map((place:{name:string;point:number[]}, i:number) => (
+    <g key={card.id+'-'+i} data-leader="" className={card.event.side==='red'?'red-leader':'blue-leader'}>
+     <line strokeDasharray={i?'3 5':undefined}/><circle r={i?4:6}/>
+     <text>{place.name.replace(/ · /g,'·').replace(/方向/g,'').replace(/（示意）/g,'')}</text>
+    </g>
+   )))}
+  </svg>
+  <div className="event-card-layer" style={{visibility:cardsReady?undefined:"hidden"}}>{cards.map(card=>{const e=card.event,q=interactionFor(e) as any,chosen=answers[e.id],preview=chosen===undefined?q?.preview:undefined;return <div key={e.id} ref={el=>{cardNodes.current[e.id]=el;}} className={'map-event-card '+(e.side==='red'?'red-event':'blue-event')+(e.playbackMode==='flash'?' flash-event':'')} data-event-id={e.id} style={{left:card.rect.x,top:card.rect.y,width:card.rect.w,maxHeight:card.rect.h}}><header><time>{String(e.dateLabel||e.date)}</time><span>{e.side==='red'?'红军':'国民党军'}</span></header><h3>{String(preview?.headline||e.headline||e.place)}</h3><p>{String(preview?.text||e.text)}</p>{!preview&&e.context&&<p className="event-context">{e.context}</p>}{q&&e.playbackMode!=='flash'&&<MarchInteraction realMeters={realMeters} walking={walking} event={e} chosen={chosen} onAnswer={i=>answer(e,i)}/>} <a href={e.source} target="_blank" rel="noopener noreferrer">{e.sourceLabel||'参考'} ↗</a></div>;})}</div>
  </div>;
 }

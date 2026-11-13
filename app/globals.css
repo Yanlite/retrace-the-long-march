@@ -36,7 +36,7 @@
 @keyframes calendar-presence{0%{opacity:0}12%,78%{opacity:1}100%{opacity:0}}
 @keyframes calendar-out{0%,27%{transform:translateY(0);opacity:1}52%,100%{transform:translateY(-105%);opacity:0}}
 @keyframes calendar-in{0%,27%{transform:translateY(105%);opacity:0}52%,100%{transform:translateY(0);opacity:1}}
-.camera-moving .event-card-layer,.camera-moving .event-leaders{visibility:hidden}
+.camera-moving .event-card-layer{visibility:hidden}
 .interval-place-dot span{display:block;width:8px;height:8px;border:1px solid #e8d9b7b0;background:#26352ac0;border-radius:50%;box-shadow:0 0 0 3px #101b1855}
 .interval-place-label.leaflet-tooltip{background:#18261b88;color:#e5dcc4cc;border:0;box-shadow:none;padding:2px 5px;font-size:10px;text-shadow:0 1px 4px #000}.interval-place-label.leaflet-tooltip:before{display:none}
 @media(max-width:600px){.calendar-transition{left:18px;top:20px;font-size:34px}.interval-place-label.leaflet-tooltip{font-size:9px}}

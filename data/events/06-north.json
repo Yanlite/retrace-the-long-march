@@ -93,14 +93,113 @@
     "chapterId": "maogong"
   },
   {
+    "id": "north-command-dispute",
+    "mode": "auto",
+    "date": "1935-07-18",
+    "routeIndex": 65.85,
+    "side": "red",
+    "place": "芦花一带",
+    "headline": "张国焘争取指挥权",
+    "text": "两军会师后需要统一指挥。张国焘要求调整军队领导机构。中央在芦花开会作出安排，由朱德任红军总司令、张国焘任总政治委员。张国焘由此进入全军指挥机构，双方对红军去向的分歧仍在。",
+    "chapterId": "maogong",
+    "anchors": [
+      {
+        "name": "芦花（黑水一带，示意）",
+        "point": [
+          32.06,
+          102.99
+        ]
+      }
+    ],
+    "focus": {
+      "id": "north-command-dispute",
+      "places": [],
+      "maxZoom": 9.5
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/n/2014/1011/c244523-25811971-4.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "north-two-columns",
+    "mode": "auto",
+    "date": "1935-08-03",
+    "routeIndex": 66.25,
+    "side": "red",
+    "place": "川西北",
+    "headline": "红一、红四方面军混编为左右两路",
+    "text": "红军总部把两个方面军混合编为左、右路军。左路由朱德、张国焘、刘伯承率领，取道阿坝。中央随右路军从毛儿盖方向北进。",
+    "chapterId": "grassland",
+    "anchors": [
+      {
+        "name": "毛儿盖",
+        "point": [
+          32.64,
+          103.1
+        ]
+      },
+      {
+        "name": "阿坝一带（示意）",
+        "point": [
+          32.9,
+          101.7
+        ]
+      }
+    ],
+    "focus": {
+      "id": "north-grassland-approaches",
+      "places": [],
+      "maxZoom": 8.5
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/GB/434461/434469/434606/index.html",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "north-maoergai",
+    "mode": "auto",
+    "date": "1935-08-20",
+    "routeIndex": 67.75,
+    "side": "red",
+    "place": "毛儿盖",
+    "headline": "中央要求左路军向右路军靠拢",
+    "text": "毛儿盖会议在北上方针基础上调整调整原计划，要求左路军从阿坝向右路军靠拢，集中力量北进。",
+    "chapterId": "grassland",
+    "anchors": [
+      {
+        "name": "毛儿盖",
+        "point": [
+          32.64,
+          103.1
+        ]
+      },
+      {
+        "name": "阿坝一带（示意）",
+        "point": [
+          32.9,
+          101.7
+        ]
+      }
+    ],
+    "focus": {
+      "id": "north-grassland-approaches",
+      "places": [],
+      "maxZoom": 8.5
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/n1/2019/0621/c423733-31173679.html",
+    "sourceLabel": "党史参考",
+    "context": "张国焘担任总政委后，又提出增补政治局和军委成员的要求，试图扩大自己在中央决策中的影响。中央没有接受他的全部要求，仍坚持北上。"
+  },
+  {
     "id": "action-38",
     "mode": "auto",
     "date": "1935-08-21",
     "routeIndex": 68,
     "side": "red",
     "place": "川西北草地",
-    "headline": "川西北草地",
-    "text": "北上的红军进入草地，面临沼泽、寒冷与缺粮的困难。",
+    "headline": "中央随右路军进入草地",
+    "text": "中央随右路军穿越川西北草地。沼泽、寒冷和缺粮使行军困难，部队仍须继续北进，争取与左路军会合。",
     "anchors": [
       {
         "name": "川西北草地（区域示意）",
@@ -135,15 +234,60 @@
     "sourceLabel": "党史参考"
   },
   {
-    "id": "north-ejie",
+    "id": "north-zhang-south",
     "mode": "auto",
-    "date": "1935-09-12",
-    "routeIndex": 72,
+    "date": "1935-09-08",
+    "dateLabel": "1935年9月上旬 · 阿坝、巴西",
+    "routeIndex": 70.2,
     "side": "red",
-    "place": "俄界",
-    "headline": "俄界会议决定继续北上",
-    "text": "过草地后，两军领导层在继续北上还是转向南下的问题上发生分歧。中央政治局在俄界开会，决定继续北上，北上的红军改称陕甘支队。",
+    "place": "阿坝、巴西",
+    "headline": "张国焘令右路军准备南下",
+    "text": "右路军已到巴西一带，仍在等左路军。张国焘以河水上涨为由率左路军退回阿坝。中央来电劝其会合北上，他仍坚持南下，并向右路军指挥层下令准备南下。",
+    "chapterId": "lazikou",
     "anchors": [
+      {
+        "name": "阿坝一带（示意）",
+        "point": [
+          32.9,
+          101.7
+        ]
+      },
+      {
+        "name": "巴西一带（示意）",
+        "point": [
+          33.59,
+          103.23
+        ]
+      }
+    ],
+    "focus": {
+      "id": "north-south-order",
+      "places": [],
+      "maxZoom": 8.5
+    },
+    "part": 11,
+    "source": "https://www.cac.gov.cn/2016-10/03/c_1119662191.htm",
+    "sourceLabel": "党史参考"
+  },
+  {
+    "id": "north-night-march",
+    "mode": "auto",
+    "date": "1935-09-10",
+    "dateLabel": "1935年9月9日深夜至10日凌晨",
+    "routeIndex": 71.25,
+    "side": "red",
+    "place": "巴西一带",
+    "headline": "中央率部连夜北上",
+    "text": "叶剑英获悉张国焘绕过中央向右路军指挥层发出的南下指令，向中央报告。为继续北上并避免红军内部发生冲突，中央率红一、红三军和军委纵队连夜离开巴西一带，向俄界行进。",
+    "chapterId": "lazikou",
+    "anchors": [
+      {
+        "name": "巴西一带（示意）",
+        "point": [
+          33.59,
+          103.23
+        ]
+      },
       {
         "name": "俄界（达拉乡一带，示意）",
         "point": [
@@ -153,14 +297,13 @@
       }
     ],
     "focus": {
-      "id": "north-ejie",
+      "id": "north-night-march",
       "places": [],
-      "maxZoom": 10
+      "maxZoom": 9.5
     },
     "part": 11,
-    "source": "https://www.dswxyjy.org.cn/n1/2026/1012/c462662-40812897.html",
-    "sourceLabel": "党史参考",
-    "chapterId": "lazikou"
+    "source": "https://dfzb.abazhou.gov.cn/abzdfsbgs/c104057/201308/9d4b9f0c6c13401f9394411ba4186525.shtml",
+    "sourceLabel": "地方志参考"
   },
   {
     "id": "action-39",
