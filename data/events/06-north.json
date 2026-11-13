@@ -65,6 +65,34 @@
     "sourceLabel": "党史参考"
   },
   {
+    "id": "north-lianghekou",
+    "mode": "auto",
+    "date": "1935-06-26",
+    "routeIndex": 65,
+    "side": "red",
+    "place": "两河口",
+    "headline": "两河口会议确定北上方针",
+    "text": "红一、红四方面军会师后，中央政治局在两河口讨论下一步去向，确定集中主力北上，争取在川陕甘建立根据地。",
+    "anchors": [
+      {
+        "name": "两河口",
+        "point": [
+          31.49,
+          102.49
+        ]
+      }
+    ],
+    "focus": {
+      "id": "north-lianghekou",
+      "places": [],
+      "maxZoom": 10.5
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/GB/434461/434467/434691/index.html",
+    "sourceLabel": "党史参考",
+    "chapterId": "maogong"
+  },
+  {
     "id": "action-38",
     "mode": "auto",
     "date": "1935-08-21",
@@ -107,6 +135,34 @@
     "sourceLabel": "党史参考"
   },
   {
+    "id": "north-ejie",
+    "mode": "auto",
+    "date": "1935-09-12",
+    "routeIndex": 72,
+    "side": "red",
+    "place": "俄界",
+    "headline": "俄界会议决定继续北上",
+    "text": "过草地后，两军领导层在继续北上还是转向南下的问题上发生分歧。中央政治局在俄界开会，决定继续北上，北上的红军改称陕甘支队。",
+    "anchors": [
+      {
+        "name": "俄界（达拉乡一带，示意）",
+        "point": [
+          33.87,
+          103.34
+        ]
+      }
+    ],
+    "focus": {
+      "id": "north-ejie",
+      "places": [],
+      "maxZoom": 10
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/n1/2026/1012/c462662-40812897.html",
+    "sourceLabel": "党史参考",
+    "chapterId": "lazikou"
+  },
+  {
     "id": "action-39",
     "mode": "auto",
     "date": "1935-09-17",
@@ -130,6 +186,63 @@
     "part": 11,
     "source": "https://www.dswxyjy.org.cn/GB/427277/462086/index.html",
     "sourceLabel": "党史参考"
+  },
+  {
+    "id": "north-hadapu",
+    "mode": "auto",
+    "date": "1935-09-22",
+    "dateLabel": "1935年9月下旬 · 哈达铺",
+    "routeIndex": 75,
+    "side": "red",
+    "place": "哈达铺",
+    "headline": "中央红军获知陕北红军消息",
+    "text": "突破腊子口后，红军在哈达铺休整。中央从当地找到的报纸上得知，陕北已有红军和根据地，开始考虑前往陕北会合。",
+    "anchors": [
+      {
+        "name": "哈达铺",
+        "point": [
+          34.23,
+          104.22
+        ]
+      }
+    ],
+    "focus": {
+      "id": "north-hadapu",
+      "places": [],
+      "maxZoom": 11
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/n1/2025/0402/c427167-40452311.html",
+    "sourceLabel": "党史参考",
+    "chapterId": "lazikou"
+  },
+  {
+    "id": "north-bangluo",
+    "mode": "auto",
+    "date": "1935-09-27",
+    "routeIndex": 77.2,
+    "side": "red",
+    "place": "榜罗镇",
+    "headline": "确定落脚陕北",
+    "text": "在哈达铺获知消息后，中央又进一步了解陕北根据地的情况。中央政治局常委在榜罗镇开会，正式确定把长征的落脚点放在陕北。",
+    "anchors": [
+      {
+        "name": "榜罗镇",
+        "point": [
+          35.03,
+          104.94
+        ]
+      }
+    ],
+    "focus": {
+      "id": "north-bangluo",
+      "places": [],
+      "maxZoom": 11
+    },
+    "part": 11,
+    "source": "https://www.dswxyjy.org.cn/n1/2025/0402/c427167-40452311.html",
+    "sourceLabel": "党史参考",
+    "chapterId": "wuqi"
   },
   {
     "id": "action-40",
