@@ -81,7 +81,8 @@ export default function MarchMap({realMeters,walking,events,meters,follow,overvi
  },[layer]);
  // Manual browsing lasts until the next marching-position update.
  useEffect(()=>{const s=scene.current;if(!s)return;const p=routePosition(meters);
-  if(!moving.current){s.trail.setLatLngs(p.line as Leaflet.LatLngTuple[]);s.marker.setLatLng(p.point as Leaflet.LatLngTuple);}
+  s.trail.setLatLngs(p.line as Leaflet.LatLngTuple[]);
+  s.marker.setLatLng(p.point as Leaflet.LatLngTuple);
   reunionMarkers.current.forEach(marker=>{const visible=meters>=milestones[milestones.length-1].meters;marker.setOpacity(visible?1:0);marker.getTooltip()?.setOpacity(visible?1:0);});
   s.nodes.forEach((node,i)=>node.getElement()?.classList.toggle('passed',milestones[i].meters<=meters+.01));
   if(!follow){returnToMarch.current=false;s.map.stop();s.map.fire('moveend');return;}
