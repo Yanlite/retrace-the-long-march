@@ -3,6 +3,7 @@ import {useEffect,useRef,useState} from 'react';
 import {ArrowRight,BookOpen,Compass,Download,Flag,LocateFixed,Maximize,Navigation,Pause,Play,RotateCcw,Settings,Square,X} from 'lucide-react';
 import MarchMap from '../components/march-map';
 import CalendarTransition from '../components/calendar-transition';
+import MarchTimeline from '../components/march-timeline';
 import {advance,currentMilestone,initialState,milestones,restore,seek,validMultiplier,WalkingFilter} from '../lib/engine.mjs';
 import {EventPlayback,timeline} from '../lib/timeline.mjs';
 import {TOTAL_METERS,sources} from '../lib/history.mjs';
@@ -24,7 +25,7 @@ export default function Home(){
  const stateRef=useRef(progress),filter=useRef(new WalkingFilter()),watch=useRef<number|null>(null),active=useRef(false),modeRef=useRef(mode);
  const accuracyRef=useRef(accuracy);accuracyRef.current=accuracy;
  const modalRef=useRef<HTMLDialogElement>(null),lastFocus=useRef<HTMLElement|null>(null);
- const current=currentMilestone(progress.virtualMeters),next=milestones.find(e=>e.meters>progress.virtualMeters+.01),percent=progress.virtualMeters/TOTAL_METERS*100;
+ const current=currentMilestone(progress.virtualMeters),next=milestones.find(e=>e.meters>progress.virtualMeters+.01);
  stateRef.current=progress;modeRef.current=mode;
  const playback=useRef(new EventPlayback()),[mapEvents,setMapEvents]=useState<any[]>([]);
  useEffect(()=>{if(!hydrated)return;playback.current.seek(progress.virtualMeters);setMapEvents([...playback.current.frame(performance.now(),progress.virtualMeters)]);},[progress.virtualMeters,hydrated]);
@@ -78,7 +79,7 @@ export default function Home(){
   <section className="fullscreen-map" aria-label="长征交互地图"><MarchMap realMeters={progress.realMeters} walking={mode==='running'} events={mapEvents} meters={progress.virtualMeters} follow={follow} overview={overview} resetRevision={resetRevision} layer={layer} onStatus={setMapStatus} onEventsVisible={ids=>playback.current.markVisible(ids,performance.now())} onInteractionComplete={id=>playback.current.completeInteraction(id,performance.now())}/></section>
   <CalendarTransition meters={progress.virtualMeters} ready={hydrated}/>
   <div className="map-controls"><button aria-label="跟随" title="跟随" aria-pressed={follow} className={follow?'active':''} onClick={()=>setFollow(v=>!v)}><LocateFixed size={21}/></button><button aria-label="设置" title="设置" onClick={()=>setModal('settings')}><Settings size={21}/></button><button aria-label="档案" title="档案" onClick={()=>setModal('archive')}><BookOpen size={21}/></button></div>
-  <div className="distance-overlay"><div className="distance-multiplier">{progress.multiplier}x</div><div className="distance-value" aria-label="虚拟长征距离"><span data-testid="virtual-distance">{km(progress.virtualMeters,1)}</span><span className="distance-unit">km</span></div><input className="minimal-progress" type="range" min="0" max={TOTAL_METERS} step="100" value={progress.virtualMeters} onChange={e=>scrub(Number(e.target.value))} onKeyDown={e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();scrub(stateRef.current.virtualMeters+(e.key==='ArrowRight'?2000:-2000));}}} aria-label="虚拟行军进度" style={{'--range-progress':percent+'%'} as React.CSSProperties}/></div>
+  <div className="distance-overlay"><div className="distance-multiplier">{progress.multiplier}x</div><div className="distance-value" aria-label="虚拟长征距离"><span data-testid="virtual-distance">{km(progress.virtualMeters,1)}</span><span className="distance-unit">km</span></div><MarchTimeline meters={progress.virtualMeters} onSeek={scrub}/></div>
   {!dialogOpen&&alertPanel}
   {notice&&<div className="toast" role="status">{notice}<button onClick={()=>setNotice('')} aria-label="关闭提示"><X size={14}/></button></div>}
   <dialog ref={modalRef} className={`exhibit-dialog ${modal==='archive'?'wide-dialog':''}`} onCancel={e=>{e.preventDefault();closeDialog();}} onClick={e=>{if(e.target===e.currentTarget)closeDialog();}}><button className="dialog-close" onClick={closeDialog} aria-label="关闭弹窗"><X size={20}/></button>
